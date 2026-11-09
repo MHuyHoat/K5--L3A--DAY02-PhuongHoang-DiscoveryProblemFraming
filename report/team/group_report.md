@@ -78,18 +78,20 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | Gia đình Long mất đáng kể thời gian mỗi lần tra lại giá đã bán, số lượng đã xuất hoặc hàng tồn, và việc này xảy ra nhiều lần mỗi tuần | Value | 5 | 1 | Có |
-| 2 | Nguyên nhân gốc nằm ở bước **ghi nhận** giao dịch (ghi thiếu, ghi không đều), chứ không phải ở bước **tra cứu** | Value | 5 | 2 | Có |
-| 3 | Người đứng quầy sẵn sàng nhập đủ từng giao dịch vào phần mềm hoặc app ngay lúc bán | Usability | 5 | 1 | Có |
-| 4 | Tra sai giá hoặc lệch tồn kho đã gây thiệt hại thật (bán lỗ, báo khách sai còn hàng, mất hàng không biết) | Value | 4 | 1 | Sau |
-| 5 | Phần mềm bán hàng có sẵn (KiotViet, Sapo, MISA eShop) đã đủ để tra cứu nhanh, không cần AI | Feasibility | 4 | 3 | Sau (đã có research ở 3.3) |
-| 6 | Cửa hàng chấp nhận chi phí và thời gian chuyển đổi (phí phần mềm, nhập danh mục hàng ban đầu) | Viability | 3 | 3 | Sau |
+| 1 | Người bán hàng mất thời gian hằng tuần để tra giá đã bán, hỏi lại giá và đếm tồn kho | Value | 5 | 3 | Đã kiểm chứng (3.2): xảy ra hằng tuần ở cả 4 vai trò, nhưng mỗi lần tra giá chỉ 1–5 phút |
+| 2 | Nguyên nhân gốc nằm ở bước **ghi nhận** giao dịch (ghi muộn, ghi sót, ghi rải rác), không phải ở bước **tra cứu** | Value | 5 | 4 | Đã kiểm chứng (snapshot #2, #3) |
+| 3 | Người đứng quầy không kịp gõ hoặc ghi tay từng giao dịch lúc đông khách | Usability | 5 | 3 | Đã kiểm chứng (snapshot #2: "Lúc đông khách thì bán xong mới ghi, đôi khi quên mất") |
+| 4 | Người bán sẵn sàng **nói một câu ngắn** ("bán 2 tai nghe Sony 350 nghìn") hoặc **chụp ảnh giấy ghi tạm** thay cho việc gõ tay, và chịu bấm xác nhận trước khi lưu | Usability | 5 | 1 | Kiểm chứng tiếp |
+| 5 | AI nhận diện đúng tên hàng, số lượng và giá từ giọng nói hoặc ảnh tiếng Việt với danh mục hàng điện tử (tên model dài, viết tắt, cùng một món nhiều mức giá) | Feasibility | 5 | 2 | Kiểm chứng tiếp |
+| 6 | Khi AI ghi sai, người bán phát hiện và sửa được ngay ở bước xác nhận, nên sai sót không lọt vào số liệu tồn kho; chi phí công cụ nằm trong mức cửa hàng chấp nhận | Viability | 4 | 2 | Sau |
 
-Giả định nhóm kiểm chứng trong buổi này: #1, #2, #3. Đây là ba giả định quan trọng cao, bằng chứng thấp. Nếu #2 sai (tức là dữ liệu đã ghi đủ, chỉ khó tìm), bài toán chuyển hẳn sang hướng tra cứu. Nếu #3 sai, mọi giải pháp kể cả không dùng AI đều không chạy được.
+**Đã kiểm chứng trong buổi:** #1, #2, #3 (phỏng vấn 4 người, mục 3.2).
+
+**Cần kiểm chứng tiếp:** #4 và #5. Đây là hai giả định quan trọng cao, bằng chứng thấp, quyết định có nên đưa AI vào bước ghi nhận hay không. Cách kiểm chứng: lấy 10 giao dịch thật của cửa hàng, cho người đứng quầy đọc thử vào một công cụ ghi đơn bằng giọng nói (ví dụ Knote ở 3.3), đếm số đơn AI nhận đúng tên hàng, số lượng và giá; hỏi người bán có chịu dùng cách này lúc đông khách không.
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn
+Cách đã dùng: Phỏng vấn (4 người tại cửa hàng điện tử của gia đình Long; người được hỏi không phải thành viên nhóm)
 
 **Snapshot #1: Chủ cửa hàng**
 
@@ -111,7 +113,7 @@ Cách đã dùng: Phỏng vấn
 | Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Bỏ sót một số giao dịch nhỏ trong lúc cửa hàng đông khách. |
 | Hiện đang xử lý bằng cách nào (workaround)? | Ghi tạm ra giấy rồi tổng hợp vào cuối ngày. |
 | Mất bao lâu, bao lần? | Khoảng 10–15 phút tổng hợp mỗi ngày. |
-| Insight / opportunity rút ra | Ghi nhận ngay lúc bán gây gián đoạn công việc, nhất là giờ cao điểm. Đây là nguồn gốc của dữ liệu thiếu. |
+| Insight / opportunity rút ra | Ghi nhận bằng tay ngay lúc bán gây gián đoạn công việc, nhất là giờ cao điểm. Đây là nguồn gốc của dữ liệu thiếu. Cơ hội: giảm thao tác ghi nhận xuống mức người bán làm được ngay cả khi đang bận. |
 
 **Snapshot #3: Người phụ trách kho**
 
@@ -135,33 +137,34 @@ Cách đã dùng: Phỏng vấn
 | Mất bao lâu, bao lần? | 1–3 phút/lần, khoảng 3 lần/tuần. |
 | Insight / opportunity rút ra | Thông tin giá nhập và giá bán chỉ nằm trong đầu chủ cửa hàng, chưa được chia sẻ cho những người cùng bán. |
 
-Tổng hợp:
+**Tổng hợp:**
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| Phỏng vấn tại cửa hàng | 4 người (4 vai trò khác nhau) | 4/4 người gặp vấn đề hằng tuần. Thời gian mất cộng dồn mỗi tuần: tra giá (chủ) 9–20 phút; hỏi lại giá (người hỗ trợ) 3–9 phút; tổng hợp sổ cuối ngày 10–15 phút/ngày; kiểm đếm kho 40–60 phút | Mỗi lần **tra giá chỉ mất 1–5 phút**, ngắn hơn nhóm nghĩ. Phần tốn thời gian nhất là **tổng hợp sổ và đếm kho**, không phải tra cứu. Nhân viên ngại ghi ngay lúc đông khách, nên giải pháp nào đòi nhập liệu tại quầy cũng có rủi ro |
-| Research công cụ có sẵn (3.3) | 3 công cụ | KiotViet, Sapo POS, MISA eShop đều ghi nhận bán hàng, lưu lịch sử giá và tự trừ tồn kho theo từng giao dịch | Không công cụ nào giải được việc người bán không ghi kịp lúc đông khách |
+| Phỏng vấn tại cửa hàng | 4 người (4 vai trò khác nhau) | 4/4 người gặp vấn đề hằng tuần. Thời gian mất mỗi tuần: tra giá (chủ) 9–20 phút; hỏi lại giá (người hỗ trợ) 3–9 phút; tổng hợp sổ cuối ngày 10–15 phút/ngày; kiểm đếm kho 40–60 phút | Mỗi lần **tra giá chỉ mất 1–5 phút**, ngắn hơn nhóm nghĩ. Phần tốn thời gian nhất là **tổng hợp sổ và đếm kho**, không phải tra cứu. Nhân viên không kịp ghi tay lúc đông khách, nên giải pháp nào đòi gõ nhiều thao tác tại quầy cũng có rủi ro |
+| Research công cụ có sẵn (3.3) | 5 công cụ | Phần mềm bán hàng (KiotViet, Sapo, MISA eShop) đã tự trừ tồn kho và lưu lịch sử giá. Đã có công cụ AI tạo đơn từ giọng nói và ảnh (Knote, MISA AMIS CRM) | Công cụ AI giọng nói hiện tối ưu cho món ăn có tên ngắn; chưa có bằng chứng chạy tốt với tên model hàng điện tử |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
 
-- **Đổi bottleneck:** từ "tra cứu thông tin trong sổ" sang **"giao dịch không được ghi ngay và ghi đủ lúc bán"**. Tra giá là triệu chứng (1–5 phút/lần). Nguyên nhân là dữ liệu ghi muộn, ghi sót, nằm rải rác, dẫn tới phải tổng hợp cuối ngày (10–15 phút/ngày) và đếm kho bằng tay (40–60 phút/tuần).
+- **Đổi bottleneck:** từ "tra cứu thông tin trong sổ" sang **"giao dịch không được ghi ngay và ghi đủ lúc bán, vì ghi tay quá chậm khi đông khách"**. Tra giá chỉ là triệu chứng (1–5 phút/lần). Nguyên nhân là dữ liệu ghi muộn, ghi sót, nằm rải rác, dẫn tới phải tổng hợp cuối ngày (10–15 phút/ngày) và đếm kho bằng tay (40–60 phút/tuần).
 - **Mở rộng actor:** từ "gia đình chủ cửa hàng" thành **4 vai trò cùng bán hàng**: chủ cửa hàng, nhân viên đứng quầy, người phụ trách kho, người hỗ trợ bán.
-- **Sửa Job Story:** *Khi bán một món hàng, kể cả lúc đông khách, người bán muốn ghi lại giao dịch thật nhanh vào một nơi chung, để mọi người trong cửa hàng tra được giá và tồn kho mà không phải hỏi nhau hay ra đếm.*
+- **Xác định cơ hội cho AI:** bước có độ mơ hồ cao nhất là chuyển **lời nói hoặc ảnh giấy ghi tạm** (đầu vào tự do, viết tắt, nhiều cách nói) thành **giao dịch có cấu trúc** (tên hàng, số lượng, giá). Đây là điểm AI hỗ trợ có cơ sở từ bằng chứng. Các bước còn lại (trừ tồn kho, lưu lịch sử giá, báo cáo) là logic cố định, phần mềm bán hàng có sẵn đã làm được.
 
 ### 3.3. Research giải pháp đã có
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| **KiotViet** (phần mềm quản lý bán hàng) | https://apps.apple.com/vn/app/kiotviet/id1146695068 | Ghi nhận giao dịch tại quầy → tự trừ tồn kho → tra lịch sử bán và giá | Phổ biến ở Việt Nam; có cảnh báo hàng tồn, thống kê hàng bán chạy; chạy trên điện thoại và máy tính | Có phí hằng tháng; nhiều tính năng nên người mới dễ bối rối; vẫn phải có người nhập giao dịch | Việc tra giá và tính tồn (đúng 2 pain của chủ cửa hàng và người phụ trách kho) đã được giải bằng **Rule**, không cần AI |
-| **Sapo POS** | https://www.sapo.vn/blog/hang-ton-kho-la-gi | Ghi nhận bán hàng → theo dõi xuất – nhập – tồn từng sản phẩm | Hơn 20 báo cáo kho; có app trên Android và iOS; nhiều người cùng dùng chung một dữ liệu | Có phí sau thời gian dùng thử; phải nhập danh mục hàng và giá ban đầu | Dữ liệu dùng chung giải được pain của người hỗ trợ bán ("phải hỏi lại người nhà vì không nhớ giá"). Chi phí lớn nhất là **công nhập danh mục ban đầu**, không phải tiền phần mềm |
-| **MISA eShop** | https://www.misaeshop.vn/?p=50457 · https://www.misaeshop.vn/7511/phan-mem-in-hoa-don-ban-hang/ | Ghi nhận tại quầy bằng **quét mã vạch, tính tiền, in hóa đơn từ điện thoại** → báo cáo doanh thu, tồn kho | Bản mobile miễn phí trọn đời cho hộ kinh doanh doanh thu ≤ 1 tỷ/năm; quét mã vạch giúp ghi nhanh hơn ghi tay | Hộ doanh thu trên 1 tỷ/năm phải trả phí sau 3 tháng; hàng không có mã vạch vẫn phải chọn tay | Quét mã vạch trực tiếp nhắm vào tín hiệu phản bác ở 3.2 ("lúc đông khách thì bán xong mới ghi"): **ghi nhận chỉ mất vài giây** thay vì ghi giấy rồi tổng hợp cuối ngày |
-| **Bối cảnh chính sách** | https://www.misaeshop.vn/?p=35679 | Toàn bộ quy trình | Hộ kinh doanh đang chuyển từ thuế khoán sang kê khai; nhiều nơi được hỗ trợ phần mềm bán hàng miễn phí | Nguồn là trang của MISA (bên bán phần mềm), cần đối chiếu với văn bản của cơ quan thuế | Cửa hàng có thể **sắp phải số hóa giao dịch dù sao đi nữa**. Nên tận dụng việc đó thay vì xây công cụ riêng |
+| **Knote** (app ghi đơn bằng AI của KiotViet) | https://apps.apple.com/us/app/knote/id6738162895 | **Ghi nhận giao dịch** bằng giọng nói hoặc tin nhắn: nói "2 phở 50k" là AI tự lên đơn | Nhận diện giọng nói tiếng Việt; gõ tắt cũng tự gợi ý đúng sản phẩm; có dùng thử miễn phí 300 đơn | Thiết kế cho quán ăn, tên món ngắn; chưa rõ độ chính xác với tên model điện tử dài; trả phí sau dùng thử | Đã có tiền lệ AI giải đúng bottleneck "ghi nhận lúc bận" ở Việt Nam. Nhóm cần **kiểm chứng với danh mục hàng điện tử** (giả định #5) trước khi tự xây |
+| **MISA AMIS CRM — Thêm đơn hàng bằng AI** | https://amis.misa.vn/274495/them-don-hang-bang-ai-tren-misa-amis-crm-nhanh-hon-chinh-xac-hon-tiet-kiem-80-thoi-gian/ | **Ghi nhận giao dịch** từ ngôn ngữ tự nhiên, ảnh hoặc file PDF | AI trích xuất thông tin và tạo sẵn đơn đầy đủ dữ liệu; sửa đơn bằng cách nhập yêu cầu | Dành cho nhân viên kinh doanh doanh nghiệp (CRM), quá nặng cho cửa hàng nhỏ; con số "tiết kiệm 80%" là của bên bán | Pattern "**ảnh hoặc câu nói → đơn nháp → người xác nhận**" áp dụng được cho giấy ghi tạm cuối ngày (snapshot #2) |
+| **KiotViet** (phần mềm quản lý bán hàng) | https://apps.apple.com/vn/app/kiotviet/id1146695068 | Lưu giao dịch → tự trừ tồn kho → tra lịch sử bán và giá | Phổ biến ở Việt Nam; cảnh báo hàng tồn; chạy trên điện thoại và máy tính | Có phí hằng tháng; nhiều tính năng nên người mới dễ bối rối; vẫn cần người nhập giao dịch | Phần tra giá và tính tồn đã giải được bằng logic cố định. **AI không cần làm lại phần này**, chỉ cần đưa dữ liệu vào đúng và đủ |
+| **Sapo POS** | https://www.sapo.vn/blog/hang-ton-kho-la-gi | Theo dõi xuất – nhập – tồn từng sản phẩm | Hơn 20 báo cáo kho; app Android và iOS; nhiều người dùng chung một dữ liệu | Có phí sau dùng thử; phải nhập danh mục hàng và giá ban đầu | Dữ liệu dùng chung giải pain của người hỗ trợ bán ("phải hỏi lại người nhà vì không nhớ giá") |
+| **MISA eShop** | https://www.misaeshop.vn/?p=50457 | Ghi nhận tại quầy (quét mã vạch, tính tiền, in hóa đơn) → báo cáo doanh thu, tồn kho | Bản mobile miễn phí trọn đời cho hộ kinh doanh doanh thu ≤ 1 tỷ/năm | Hộ doanh thu trên 1 tỷ/năm trả phí sau 3 tháng; hàng không có mã vạch vẫn phải chọn tay | Quét mã vạch là phương án **không dùng AI** để so sánh ở CP6: nếu đa số hàng có mã vạch, có thể không cần AI ở bước ghi nhận |
 
-**Kết luận research:** 
-- Cả 3 công cụ đều giải được 3 pain đã kiểm chứng ở 3.2 (tra giá đã bán, biết tồn kho không cần đếm, giá dùng chung cho mọi người bán) bằng logic cố định, không cần AI.
-- Khoảng trống còn lại là **thói quen ghi nhận lúc đông khách**, đây là vấn đề quy trình và Usability.
-- Hướng đề xuất cho CP5–6: **No AI / Rule**, tức là dùng phần mềm bán hàng có sẵn, dán mã vạch cho hàng chưa có mã, và quy định ghi nhận ngay tại quầy.
----
+**Kết luận research:**
+
+- Phần **lưu trữ, trừ tồn kho, tra lịch sử giá** đã được phần mềm bán hàng có sẵn giải bằng logic cố định, nên nhóm không xây lại.
+- Khoảng trống thật là **bước ghi nhận lúc đông khách**. Thị trường đã có công cụ AI chuyển giọng nói hoặc ảnh thành đơn hàng (Knote, MISA AMIS CRM), nghĩa là điểm can thiệp AI này **khả thi và có tiền lệ**.
+- Hướng đề xuất cho CP5–6: **trợ lý AI ở bước ghi nhận**. Người bán nói một câu hoặc chụp ảnh giấy ghi tạm → AI tạo giao dịch nháp → người bán xác nhận → phần mềm bán hàng lưu và tự trừ tồn kho. Trước khi chốt, nhóm phải so sánh với phương án quét mã vạch (No AI) và kiểm chứng giả định #4, #5.
 
 ## 4. Quy trình trước/sau (CP5)
 
