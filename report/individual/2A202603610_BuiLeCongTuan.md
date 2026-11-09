@@ -1,6 +1,5 @@
 # Báo cáo cá nhân — 2A202603610_BuiLeCongTuan
 
-
 ## 1. Thông tin học viên
 
 - Họ tên: Bùi Lê Công Tuấn
@@ -17,18 +16,18 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
-| 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
+| 1 | Tốn thời gian | Khi nhận bài tập mới, tôi muốn tìm nhanh toàn bộ tài liệu liên quan để bắt đầu làm bài ngay | Sinh viên | Mất khoảng 15–30 phút để tìm LMS, GitHub, notebook và tài liệu |
+| 2 | Lặp lại | Khi có nhiều bài tập cùng lúc, tôi muốn theo dõi deadline tập trung để không bỏ sót | Sinh viên | Phải kiểm tra deadline ở LMS, Discord và GitHub nhiều lần mỗi tuần |
+| 3 | Cần đọc, tổng hợp nhiều thông tin | Khi làm báo cáo môn học, tôi muốn tổng hợp nội dung nhanh để hoàn thành đúng hạn | Sinh viên | Mỗi báo cáo mất khoảng 1–2 giờ để tổng hợp và format |
+| 4 | Pain từ người khác | Khi làm việc nhóm, tôi muốn biết từng thành viên đang làm gì để tránh trùng lặp công việc | Thành viên nhóm | Thường phải nhắn tin hỏi tiến độ nhiều lần |
+| 5 | Tốn thời gian | Khi cần sử dụng lại API key hoặc tài khoản đã tạo, tôi muốn tìm lại nhanh để tiếp tục công việc | Sinh viên học AI | Có lúc mất 5–10 phút tìm email hoặc API key |
+| 6 | Lặp lại | Khi ghi chép chi tiêu, tôi muốn lưu nhanh các khoản chi để quản lý tài chính cá nhân | Sinh viên | Thường quên ghi chép sau vài ngày |
+| 7 | Cần đọc, tổng hợp nhiều thông tin | Khi học nhiều môn cùng lúc, tôi muốn biết tiến độ từng môn để phân bổ thời gian hợp lý | Sinh viên | Khó xác định môn nào đang bị chậm |
+| 8 | Pain từ người khác | Khi tìm phòng trọ, tôi muốn kiểm tra nhanh độ tin cậy của thông tin để tránh mất thời gian | Sinh viên | Nhiều bài đăng thiếu hoặc sai thông tin |
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
--
+- Tôi dùng AI để brainstorm thêm các vấn đề thường gặp của sinh viên. Tôi giữ lại các vấn đề mà bản thân hoặc bạn bè thường gặp như tìm tài liệu học tập, theo dõi deadline và làm việc nhóm. Tôi bỏ các ý tưởng quá chung chung hoặc chưa từng gặp trong thực tế vì chưa có bằng chứng để kiểm chứng.
 
 ---
 
@@ -38,137 +37,36 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| 1 | Khó tìm tài liệu học tập | Tôi gặp thường xuyên và tốn nhiều thời gian nhất | Mức độ ảnh hưởng với các sinh viên khác |
+| 2 | Bỏ sót deadline bài tập | Xảy ra nhiều lần trong quá trình học | Tần suất thực tế của toàn bộ sinh viên |
+| 3 | Làm việc nhóm khó theo dõi tiến độ | Gây chậm tiến độ và dễ trùng công việc | Có phải vấn đề lớn nhất của nhóm hay không |
 
 ### Problem Card #1
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi …, tôi muốn …, để … |
-| Actor | |
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
-| Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
+| Job Story | Khi nhận bài tập mới, tôi muốn tìm nhanh toàn bộ tài liệu liên quan, để có thể bắt đầu làm bài ngay |
+| Actor | Sinh viên |
+| Thời điểm / bối cảnh | Khi bắt đầu một buổi học hoặc bài lab mới |
+| Quy trình hiện tại (3–7 bước) | 1. Nhận bài tập → 2. Mở LMS → 3. Tìm GitHub → 4. Tìm notebook → 5. Đọc tài liệu → 6. Bắt đầu làm bài |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2, 3, 4; mất khoảng 15–30 phút |
+| Impact (nếu không giải thì sao) | Mất thời gian học và giảm khả năng tập trung |
+| Success metric (baseline → target) | 20 phút → dưới 5 phút |
+| Phương án không dùng AI | Gom tài liệu vào một nơi duy nhất |
+| Giả thuyết về AI (nếu có) | AI có thể hỗ trợ tìm kiếm và tổng hợp tài liệu liên quan |
+| Cảm nhận nhanh | Workflow |
 
 Quy trình nháp hiện tại:
 
 ```text
-
-```
-
-### Problem Card #2
-
-| Trường | Nội dung |
-|---|---|
-| Job Story | Khi …, tôi muốn …, để … |
-| Actor | |
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
-| Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
-
-Quy trình nháp hiện tại:
-
-```text
-
-```
-
-### Problem Card #3
-
-| Trường | Nội dung |
-|---|---|
-| Job Story | Khi …, tôi muốn …, để … |
-| Actor | |
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
-| Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
-
-Quy trình nháp hiện tại:
-
-```text
-
-```
-
-### Card muốn pitch nhất
-
-- Card số:
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
-
-### AI đã phản biện card thế nào
-
-| Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
-|---|---|---|
-| | | |
-
----
-
-## 4. Tôi đã tham gia phần nào (CP3 → CP7)
-
-| Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
-|---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
-
----
-
-## 5. Dùng AI
-
-| Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
-|---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
-
----
-
-## 6. Reflection (CP7)
-
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
-
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
-
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
-
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
-
----
-
-## 7. Tài liệu tham khảo
-
--
+Nhận bài tập
+↓
+Tìm LMS
+↓
+Tìm GitHub
+↓
+Tìm notebook
+↓
+Đọc tài liệu
+↓
+Làm bài
