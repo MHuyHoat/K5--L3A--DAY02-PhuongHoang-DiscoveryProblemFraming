@@ -184,21 +184,33 @@ Lấy lại thông tin cần tìm
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
-
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+
+Qua phần trình bày của các nhóm, tôi nhận ra mỗi vấn đề đều có những góc nhìn và khó khăn riêng. Tôi học được rằng cần tìm hiểu kỹ vấn đề thực tế của người dùng, không nên chỉ nhìn vào biểu hiện bên ngoài. Điều này giúp tôi có thêm góc nhìn khi phân tích Problem 2 của nhóm mình và hiểu rằng việc xác định đúng vấn đề quan trọng không kém việc tìm giải pháp.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
+Nhóm tôi có lúc vừa tìm hiểu vấn đề vừa suy nghĩ về giải pháp. Khi nhận thấy cửa hàng gặp khó khăn trong việc ghi chép và quản lý hàng hóa, chúng tôi đã nghĩ đến việc sử dụng Voice AI. Tuy nhiên, tôi nhận ra nếu quá tập trung vào giải pháp thì nhóm có thể bỏ qua thói quen và nhu cầu thực tế của người dùng. Vì vậy, nhóm cần tìm hiểu kỹ hơn cách gia đình đang ghi chép, tra cứu thông tin và kiểm tra hàng tồn trước khi lựa chọn hướng giải quyết.
+
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
+Tôi nhận được câu hỏi phản biện: "Nếu nhập liệu bằng giọng nói dẫn đến nhập liệu sai thì sẽ ảnh hưởng rất nghiêm trọng, bạn giải quyết thế nào?". Ban đầu, tôi chủ yếu nghĩ đến sự tiện lợi của Voice AI mà chưa chú ý nhiều đến rủi ro. Sau câu hỏi này, tôi nhận ra nếu AI nghe nhầm tên sản phẩm, số lượng hoặc giá tiền thì dữ liệu quản lý có thể bị sai. Vì vậy, tôi bổ sung ý tưởng cần có bước đọc lại thông tin để người dùng kiểm tra và xác nhận trước khi lưu.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
+Điều khiến tôi chú ý khi tìm hiểu thực tế tại cửa hàng gia đình là bố mẹ sử dụng nhiều cách ghi chép khác nhau như sổ sách, hóa đơn và phiếu giao hàng. Trước đây tôi không quá để ý đến điều này, nhưng khi tìm hiểu kỹ hơn, tôi nhận ra thông tin được lưu ở nhiều nơi có thể khiến việc tra cứu giao dịch và kiểm tra hàng tồn trở nên bất tiện. Tôi cũng nhận thấy vấn đề không chỉ nằm ở việc thiếu phần mềm quản lý mà còn liên quan đến thói quen ghi chép đã hình thành từ lâu.
+
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+
+Đối với tôi, khó nhất là xác định đúng vấn đề cốt lõi. Ban đầu, tôi nghĩ cửa hàng chỉ cần một phần mềm quản lý hàng hóa. Tuy nhiên, sau khi tìm hiểu, tôi nhận ra khó khăn còn nằm ở việc ghi chép chưa thống nhất, thông tin chưa được lưu đầy đủ và bố mẹ chưa quen sử dụng các ứng dụng quản lý. Tôi cũng phải phân biệt giữa nguyên nhân, biểu hiện và hậu quả để tránh viết Problem Statement quá chung chung hoặc đưa giải pháp vào ngay từ đầu.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Nếu được làm lại, tôi muốn tìm hiểu thêm từ nhiều hộ kinh doanh khác thay vì chỉ dựa vào cửa hàng gia đình. Tôi cũng muốn thu thập số liệu cụ thể về thời gian ghi chép, tra cứu thông tin và kiểm tra hàng tồn để đánh giá vấn đề rõ ràng hơn. Khi thảo luận nhóm, tôi sẽ phản biện nhiều hơn về tính phù hợp của Voice AI, đặc biệt là độ chính xác khi nhận diện giọng nói và khả năng sử dụng của người lớn tuổi. Tôi nghĩ nhóm cần kiểm chứng xem người dùng có thực sự muốn nhập liệu bằng giọng nói hay không, thay vì mặc định đây là giải pháp phù hợp.
+
+**6.7. Hiểu bài:**
+
+Vấn đề nhóm tôi lựa chọn là khó khăn trong việc ghi nhận và tra cứu thông tin hàng hóa, giao dịch tại các hộ kinh doanh. Quy trình hiện tại gồm nhập hàng, ghi chép, bán hàng và kiểm tra tồn kho, nhưng thông tin có thể được lưu ở nhiều nơi khác nhau. Nhóm có thể đánh giá giải pháp thông qua thời gian ghi nhận giao dịch, thời gian tra cứu và độ đầy đủ của dữ liệu. AI không được tự suy đoán khi thông tin không rõ mà cần hỏi lại và yêu cầu người dùng xác nhận trước khi lưu. Mức độ can thiệp của AI là nhận diện giọng nói, hiểu yêu cầu và trích xuất thông tin giao dịch. Vì vậy, nhóm lựa chọn kết hợp Voice AI, AI Agent với hệ thống quản lý hàng hóa để giảm thao tác nhập liệu và hỗ trợ tra cứu thuận tiện hơn.
 
 ---
 
