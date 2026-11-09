@@ -9,7 +9,7 @@
 - Họ tên: Nguyễn Vũ Thành Long
 - MSSV: 2A202603635
 - Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:
+- Tên nhóm: PhuongHoang
 - Link repo nhóm: [GitHub - K5--L3A--DAY02-PhuongHoang-DiscoveryProblemFraming](https://github.com/MHuyHoat/K5--L3A--DAY02-PhuongHoang-DiscoveryProblemFraming/tree/main)
 
 ---
