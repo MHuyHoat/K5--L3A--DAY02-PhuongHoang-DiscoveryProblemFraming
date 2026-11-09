@@ -1,12 +1,12 @@
-# Báo cáo cá nhân — [2A202603640_BuiDangQuang]
+# Báo cáo cá nhân — 2A202603640_BuiDangQuang
 
 > Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md`.
 > Mỗi thành viên một file trong `report/individual/` trên repo nhóm.
 
 ## 1. Thông tin học viên
 
-- Họ tên: [Bùi Đăng Quang]
-- MSSV: [2A202603640]
+- Họ tên: Bùi Đăng Quang
+- MSSV: 2A202603640
 - Email trường (không bắt buộc):
 - Tên nhóm: PhuongHoang
 - Link repo nhóm:https://github.com/MHuyHoat/K5--L3A--DAY02-PhuongHoang-DiscoveryProblemFraming/tree/main
@@ -217,8 +217,6 @@ Có thể phát hiện căn đã được người khác đặt cọc
 
 ### 6.7. Hiểu bài
 
-> Viết sau khi nhóm hoàn thành CP3–CP6.
-
 ---
 
 ## 7. Tài liệu tham khảo
@@ -226,7 +224,3 @@ Có thể phát hiện căn đã được người khác đặt cọc
 - Trải nghiệm cá nhân trong quá trình tìm phòng/căn hộ trong 1 tuần gần đây.
 - Các nguồn khác sẽ bổ sung ở bước research/validation nếu đề tài được nhóm chọn.
 """
-
-path = Path("/mnt/data/bao-cao-ca-nhan-CP1-CP2-tim-phong.md")
-path.write_text(content, encoding="utf-8")
-print(f"Đã tạo: {path}")
