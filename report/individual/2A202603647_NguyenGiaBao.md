@@ -7,7 +7,7 @@
 ## 1. Thông tin học viên
 
 - Họ tên: NGUYỄN GIA BẢO
-- MSSV:
+- MSSV: 2A202603647
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm:
 - Link repo nhóm:
@@ -131,7 +131,7 @@ Quy trình nháp hiện tại:
 | Quy trình hiện tại (3–7 bước) | 1. Nhận tin nhắn của khách.<br>2. Phân loại câu hỏi (giá / đăng tin / thu gom).<br>3. Tra giá hoặc chính sách.<br>4. Soạn câu trả lời và gửi. |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Bước 3 (tra giá/chính sách), 3–5 phút mỗi lần; ngoài giờ không có ai trả lời. |
 | Impact (nếu không giải thì sao) | Khách phải chờ, có thể bỏ giao dịch hoặc chuyển sang kênh khác; số tin nhắn/ngày: ___. |
-| Success metric (baseline → target) | Baseline: thời gian phản hồi ___ → Target: < 5 phút. |
+| Success metric (baseline → target) | Baseline: thời gian phản hồi 7 phút → Target: < 5 phút. |
 | Phương án không dùng AI | Bộ FAQ + mẫu trả lời nhanh (quick reply) + bảng giá tham khảo công khai trên web. |
 | Giả thuyết về AI (nếu có) | AI soạn câu trả lời dựa trên FAQ và bảng giá; nhân viên duyệt trước khi gửi. Ngoài giờ AI chỉ trả lời các câu có trong FAQ, câu hỏi chốt giá thì chuyển cho nhân viên. |
 | Cảm nhận nhanh | **Workflow** |
@@ -167,7 +167,7 @@ Quy trình nháp hiện tại:
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| Baseline 30–45 phút chỉ dựa trên trí nhớ. | Đồng ý | Bấm giờ thật ở lần sửa CV tiếp theo: ___ phút. |
+| Baseline 30–45 phút chỉ dựa trên trí nhớ. | Đồng ý | Bấm giờ thật ở lần sửa CV tiếp theo: 25 phút. |
 | Bottleneck thật có thể là bước quyết định có nộp hay không, chứ chưa chắc là bước sửa CV. | Đồng ý một phần | Đưa vào danh sách giả định cần kiểm chứng ở CP4. |
 | Gợi ý để AI tự viết toàn bộ CV rồi tự nộp. | Không đồng ý | Giữ boundary: tôi duyệt trước khi nộp, AI không được thêm kỹ năng mà tôi không có. |
 
