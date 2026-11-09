@@ -9,7 +9,7 @@
 - MSSV: 2A202603640
 - Email trường (không bắt buộc):
 - Tên nhóm: PhuongHoang
-- Link repo nhóm:https://github.com/MHuyHoat/K5--L3A--DAY02-PhuongHoang-DiscoveryProblemFraming/tree/main
+- Link repo nhóm: https://github.com/MHuyHoat/K5--L3A--DAY02-PhuongHoang-DiscoveryProblemFraming
 
 ---
 
@@ -151,7 +151,7 @@ Có thể phát hiện căn đã được người khác đặt cọc
 ### Card muốn pitch nhất
 
 - **Card số:** 1
-- **Vì sao:** Đây là vấn đề tôi trực tiếp gặp trong tuần vừa qua khi tìm phòng mới. Tôi phải xem nhiều listing từ nhiều sale, gặp tình trạng cùng một căn được đăng lại, thông tin giá và chi phí không đồng nhất, ảnh/video có trường hợp khác thực tế và phải đi xem nhiều nơi mới biết căn có phù hợp hay không. Vì vậy tôi muốn kiểm tra xem có thể cải thiện bước lọc và so sánh trước khi đi xem để giảm những chuyến đi không cần thiết hay không.
+- **Vì sao:** Đây là vấn đề em trực tiếp gặp trong tuần vừa qua khi tìm phòng mới. Em phải xem nhiều listing từ nhiều sale, gặp tình trạng cùng một căn được đăng lại, thông tin giá và chi phí không đồng nhất, ảnh/video có trường hợp khác thực tế và phải đi xem nhiều nơi mới biết căn có phù hợp hay không. Vì vậy em muốn kiểm tra xem có thể cải thiện bước lọc và so sánh trước khi đi xem để giảm những chuyến đi không cần thiết hay không.
 - **Câu hỏi muốn nhóm phản biện:** Vấn đề chính có thật sự nằm ở việc lọc và so sánh listing trước khi đi xem, hay nguyên nhân gốc rễ là dữ liệu do sale/chủ nhà cung cấp thiếu chính xác và cập nhật chậm — một vấn đề mà chỉ cải thiện bộ lọc cũng chưa chắc giải quyết được?
 
 ---
@@ -167,22 +167,22 @@ Có thể phát hiện căn đã được người khác đặt cọc
 
 ---
 
-## 4. Tôi đã tham gia phần nào (CP3 → CP7)
+---
 
-> Phần này cập nhật sau khi nhóm bắt đầu hội tụ và chọn đề tài chung.
+## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card (CP3) | Trình bày bài toán lọc và so sánh phòng/căn hộ dựa trên trải nghiệm tìm phòng, bao gồm tin trùng, thiếu thông tin và trạng thái phòng cập nhật chậm. | Candidate đạt **32/35, xếp hạng 3**; đóng góp một hướng so sánh thực tế cho nhóm. |
+| Phản biện và nhận phản biện (CP3) | Cùng nhóm xem xét rủi ro dữ liệu của từng candidate: tin phòng phụ thuộc chủ nhà/sale; tồn kho không thể chính xác nếu giao dịch ghi thiếu. | Nhận ra phải kiểm tra nguyên nhân gốc và so sánh phương án không dùng AI trước khi chọn công nghệ. |
+| Gom OST và chọn candidate (CP3) | Tham gia hội tụ theo Outcome – Opportunity – Solution và 7 tiêu chí chấm điểm. | Nhóm chọn **quản lý kho hộ kinh doanh nhỏ (34/35)**, nhưng chưa mặc định xây AI Agent. |
+| Kiểm chứng / research (CP4) | Tổng hợp kết quả nghiên cứu nhóm: phỏng vấn **4 vai trò** tại cửa hàng điện tử của gia đình thành viên Long, đối chiếu các giải pháp KiotViet, Sapo, MISA eShop, Knote và MISA AMIS CRM. | **4/4 người** gặp khó khăn hằng tuần. Điểm nghẽn chính chuyển từ “tra giá chậm” sang **giao dịch ghi muộn/ghi sót lúc đông khách**. Tổng hợp cuối ngày mất khoảng **10–15 phút/ngày**, kiểm đếm **20–30 phút/lần, khoảng 2 lần/tuần**. Đây là kết quả chung của nhóm, không phải phỏng vấn do cá nhân tôi trực tiếp thực hiện. |
+| Quy trình trước/sau (CP5) | Đối chiếu As-Is (ghi tay, tra sổ, hỏi lại, kiểm hàng) với To-Be dự kiến (chuẩn hóa giao dịch, lưu tập trung, hỗ trợ tra cứu/trích xuất, người bán xác nhận). | Xác định **ghi nhận dữ liệu đầy đủ** là điều kiện tiên quyết; Rule xử lý tính tồn, con người chịu trách nhiệm kiểm tra. Các thời gian To-Be vẫn là kỳ vọng, chưa đo bằng pilot. |
+| Problem Statement (CP5–CP6) | Theo dõi việc điều chỉnh actor, bottleneck, metric và boundary từ v0 sang v1 dựa trên CP4. | Actor gồm người trực tiếp bán và quản lý kho; cần đo **thời gian tra cứu, tỷ lệ giao dịch ghi đủ, mức lệch tồn kho**. AI không tự sửa giao dịch, đặt giá hoặc quyết định nhập hàng. |
+| Mức can thiệp AI (CP6) | Cùng nhóm đối chiếu No AI / Rule / Workflow / Agent và các rủi ro Value, Usability, Feasibility, Viability. | Nhóm **đề xuất Workflow trên nền No AI/Rule**, với AI hỗ trợ trích xuất và tra cứu; giao dịch phải được người dùng xác nhận. Chưa chọn Agent do thiếu dữ liệu đáng tin cậy. |
+| Quyết định và bước tiếp theo (CP6–CP7) | Ghi nhận quyết định **tiếp tục cải thiện và kiểm chứng**, chưa triển khai ngay AI; tổng hợp các điểm cần suy ngẫm cho reflection cá nhân. | Cần đo baseline, thử ghi nhận giao dịch trong 1–2 tuần và kiểm tra khả năng nhận diện tên hàng điện tử từ lời nói/ảnh; mới quyết định pilot sau khi đủ bằng chứng. |
+
+> **Phạm vi đóng góp:** CP4–CP6 trên đây tóm tắt tài liệu và kết quả **của cả nhóm**, không khẳng định tôi là người trực tiếp phỏng vấn, đo đạc hoặc triển khai thử nghiệm. Nguồn CP4 cho biết đã phỏng vấn 4 người; một số dòng trong bản CP6 vẫn mô tả “chưa phỏng vấn”, vì vậy báo cáo này ưu tiên kết quả CP4 mới có bằng chứng cụ thể.
 
 ---
 
@@ -190,37 +190,59 @@ Có thể phát hiện căn đã được người khác đặt cọc
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | Gợi ý cách viết Job Story và nhóm các pain từ trải nghiệm tìm phòng. | Giúp diễn đạt vấn đề rõ hơn theo cấu trúc “Khi… tôi muốn… để…”. | Ban đầu AI đi quá nhanh sang đề xuất hệ thống gợi ý phòng bằng AI. | Quay lại chỉ mô tả problem và bằng chứng thực tế; chưa chọn solution. |
-| CP2 Problem Card | Hỗ trợ chuẩn hóa các trường Actor, quy trình, bottleneck, impact, metric và phương án No AI. | Giúp nhìn ra rằng mỗi pain cần tách thành một card có quy trình riêng. | Một số metric ban đầu bị đề xuất quá sớm khi chưa có baseline. | Không dùng các con số chưa đo; ghi rõ “cần kiểm chứng”. |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| **CP1 Scan** | Gợi ý cấu trúc Job Story và nhóm pain từ trải nghiệm tìm phòng. | Diễn đạt rõ “Khi… tôi muốn… để…”. | Dễ nhảy sớm sang hệ thống AI tìm phòng. | Chỉ giữ các tình huống tôi thực sự gặp; tách problem khỏi solution. |
+| **CP2 Problem Card** | Chuẩn hóa Actor, quy trình, bottleneck, impact, metric và hướng No AI. | Giúp tách ba vấn đề thành các card độc lập. | Đề xuất chỉ tiêu khi chưa có baseline thực tế. | Không tự đặt số đo; nêu rõ giả định cần kiểm chứng. |
+| **CP3 Hội tụ** | Hỗ trợ tổng hợp 6 candidate, phản biện và phân biệt Outcome – Opportunity – Solution. | Làm rõ tiêu chí so sánh và các mức No AI / Rule / Workflow / Agent. | Có xu hướng ưu tiên giải pháp AI hoặc coi điểm số đánh giá là bằng chứng thực nghiệm. | Dùng điểm đã thống nhất của nhóm; chọn **problem quản lý kho**, chưa mặc định Agent. |
 
 ---
 
 ## 6. Reflection (CP7)
 
-> Phần này thực hiện sau theo yêu cầu của bài. Cần viết bằng trải nghiệm thật của bản thân, không dùng AI viết thay.
+> **Bản nháp suy ngẫm cá nhân để rà soát trước khi nộp.** Các nhận định về diễn biến thảo luận và cảm nhận cá nhân cần được tôi kiểm tra lại, điều chỉnh theo điều mình thực sự trải nghiệm.
 
 ### 6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?
 
+Em nhận ra một problem đáng chọn không nhất thiết là ý tưởng có AI phức tạp nhất. So với bài toán tìm phòng em đề xuất, quản lý kho có người dùng thật, dễ tiếp cận, quy trình cụ thể và các chỉ số vận hành có thể quan sát. Bằng chứng về pain, khả năng validation và phạm vi thực hiện quan trọng hơn sự hấp dẫn của solution. Quan trọng nhất là gia đình em cũng có một cửa hàng nhỏ và bố mẹ sử dụng công nghệ rất ít và cảm thấy các pain-point của Long đưa ra khá sát với thực tế mà em quan sát.
+
 ### 6.2. Nhóm có lúc nào bị "solution-first" không? Lúc đó nhóm nhận ra và xử lý thế nào?
+
+Có nguy cơ solution-first khi đề tài quản lý kho ban đầu được gọi là "AI Agent hỗ trợ quản lý kho". Khi đối chiếu No AI, Rule, Workflow và Agent, nhóm đã tách nhu cầu ghi nhận, tra cứu, đối chiếu tồn kho khỏi cách giải quyết. Nhóm chọn kiểm chứng problem trước; sau CP4 mới có cơ sở đề xuất Workflow thay vì Agent.
 
 ### 6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.
 
+Ban đầu em ưu tiên bài toán lọc và so sánh phòng vì đã trực tiếp gặp tình trạng tin trùng, thiếu thông tin và phòng đã có người đặt cọc. Tuy nhiên, việc phản biện cho thấy chất lượng và thời điểm cập nhật tin phụ thuộc nhiều vào sale/chủ nhà, nên một bộ lọc tốt vẫn chưa xử lý được nguyên nhân gốc. Em chấp nhận kết quả hội tụ chọn quản lý kho vì nhóm có điều kiện kiểm chứng quy trình và dữ liệu trực tiếp hơn.
+
 ### 6.4. Kết quả kiểm chứng có làm tôi bất ngờ không? Điều gì?
+
+Điểm đáng chú ý nhất trong kết quả CP4 của nhóm là "tra giá thường chỉ mất 1–5 phút/lần", trong khi ghi chép giao dịch cuối ngày và kiểm đếm kho tốn thời gian hơn. Điều đó thay đổi cách nhìn về bottleneck: không chỉ là tìm thông tin nhanh hơn, mà phải hạn chế giao dịch bị ghi muộn hoặc bỏ sót ngay từ lúc bán. Đây là kết quả em đọc từ báo cáo kiểm chứng chung, không phải quan sát do em trực tiếp thực hiện.
 
 ### 6.5. Điều khó nhất khi viết Problem Statement là gì?
 
+Khó nhất là phân biệt "triệu chứng, nguyên nhân và giải pháp". “Khó tra giá” là biểu hiện dễ thấy; “giao dịch ghi chưa đủ, chưa thống nhất” có thể là nguyên nhân sâu hơn; còn “AI Agent” chỉ là một phương án. Problem Statement cũng phải có metric đo được nhưng không được biến số liệu dự kiến thành baseline đã xác minh.
+
 ### 6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?
 
+Em sẽ yêu cầu ghi rõ nguồn của từng nhận định ngay từ đầu, đo thời gian và tần suất trước khi đánh giá impact, đồng thời hỏi người dùng cách họ thật sự ghi giao dịch khi đông khách. Em cũng sẽ phản biện mạnh hơn câu hỏi: "Nếu chỉ chuẩn hóa sổ sách, quét mã hoặc dùng phần mềm POS, phần pain nào vẫn còn cần AI?"
+
 ### 6.7. Hiểu bài
+
+Em hiểu "Outcome" là kết quả muốn cải thiện, "Opportunity" là nhu cầu hoặc pain của người dùng, còn "Solution" là cách can thiệp. Validation nhằm kiểm tra giả định bằng hành vi và dữ liệu thực tế, không phải tìm bằng chứng ủng hộ ý tưởng sẵn có. Chỉ nên chọn AI ở mức vừa đủ: No AI/Rule nếu quy tắc rõ và dữ liệu đã chuẩn; Workflow khi phải xử lý đầu vào tự do có người xác nhận; Agent chỉ khi việc tự chủ thực sự cần thiết và rủi ro được kiểm soát.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
-- Trải nghiệm cá nhân trong quá trình tìm phòng/căn hộ trong 1 tuần gần đây.
-- Các nguồn khác sẽ bổ sung ở bước research/validation nếu đề tài được nhóm chọn.
-"""
+1. **Bùi Đăng Quang**, ghi chép trải nghiệm tìm và so sánh phòng/căn hộ; cơ sở cho CP1–CP2 của báo cáo cá nhân.
+2. **Nhóm PhuongHoang**, báo cáo hội tụ CP3: *Opportunity Solution Tree và chấm điểm 6 candidate*, bản chọn problem quản lý kho.
+3. **Nhóm PhuongHoang**, nội dung CP4–CP6: *Assumption Map, phỏng vấn 4 vai trò tại cửa hàng điện tử, research giải pháp, As-Is/To-Be, Problem Statement v0/v1, ma trận can thiệp AI và quyết định*. Tài liệu nhóm được cung cấp để tổng hợp báo cáo này.
+4. **Repository nhóm:** [K5--L3A--DAY02-PhuongHoang-DiscoveryProblemFraming](https://github.com/MHuyHoat/K5--L3A--DAY02-PhuongHoang-DiscoveryProblemFraming); hướng dẫn bài tập: `docs/01-worksheet.md`.
+5. **Knote (KiotViet)**, ứng dụng ghi đơn bằng AI: https://apps.apple.com/us/app/knote/id6738162895
+6. **MISA AMIS CRM**, tính năng thêm đơn hàng bằng AI: https://amis.misa.vn/274495/them-don-hang-bang-ai-tren-misa-amis-crm-nhanh-hon-chinh-xac-hon-tiet-kiem-80-thoi-gian/
+7. **KiotViet**, ứng dụng quản lý bán hàng: https://apps.apple.com/vn/app/kiotviet/id1146695068
+8. **Sapo**, tài liệu quản lý hàng tồn kho: https://www.sapo.vn/blog/hang-ton-kho-la-gi
+9. **MISA eShop**, giải pháp bán hàng: https://www.misaeshop.vn/?p=50457
+10. **Google PAIR**, *People + AI Guidebook*: https://pair.withgoogle.com/guidebook
+11. **Agrawal, Gans & Goldfarb**, *Prediction Machines* — khung Prediction, Judgment, Action, Outcome.
+12. **Marty Cagan**, *Inspired* — bốn loại rủi ro Value, Usability, Feasibility, Viability.
+
+> Các nguồn công cụ và tài liệu lý thuyết ở mục 5–12 được kế thừa từ danh mục tham khảo của **báo cáo nhóm**; không đồng nghĩa em đã tự kiểm chứng độc lập mọi tuyên bố của nhà cung cấp.
