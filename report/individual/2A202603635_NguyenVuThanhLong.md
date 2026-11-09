@@ -158,16 +158,16 @@ Lấy lại thông tin cần tìm
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Tôi trình bày Problem 2 về khó khăn trong quản lý hàng hóa và giao dịch tại cửa hàng điện tử của gia đình. | Giúp các thành viên hiểu vấn đề thực tế và có cơ sở thảo luận, lựa chọn đề tài. |
+| Phản biện bài của bạn khác | Tôi lắng nghe phần trình bày và đặt câu hỏi để làm rõ vấn đề, đối tượng gặp khó khăn và hướng giải quyết. | Giúp tôi nhìn nhận vấn đề từ nhiều góc độ và học cách phản biện các giả định chưa rõ ràng. |
+| Nhận phản biện | Câu hỏi tôi nhận được: [Bổ sung câu hỏi thực tế]. Tôi đã sửa lại cách xác định pain point, làm rõ đối tượng và nguyên nhân của vấn đề. | Giúp nội dung Problem 2 rõ ràng và có cơ sở hơn. |
+| Gom cluster / cây OST | Tôi tham gia sắp xếp và nhóm các vấn đề liên quan đến hoạt động kinh doanh. | Nhận ra các vấn đề ghi chép giao dịch, tra cứu giá bán và kiểm soát tồn kho có mối liên hệ với nhau. |
+| Chọn candidate problem | Tôi đưa Problem 2 ra thảo luận cùng các thành viên. | Sau khi trao đổi, cả nhóm thống nhất lựa chọn Problem 2 để triển khai. |
+| Kiểm chứng / research | Tôi tìm hiểu cách gia đình ghi nhận hàng nhập, hàng bán và kiểm tra hàng tồn. | Nhận thấy gia đình kết hợp ghi sổ, hóa đơn và phiếu giao hàng; thông tin chưa phải lúc nào cũng được ghi đầy đủ, gây khó khăn khi tra cứu. |
+| Quy trình nhóm | Tôi cùng các thành viên trao đổi về quy trình nhập hàng, bán hàng, ghi chép và kiểm tra tồn kho. | Giúp nhóm xác định những công đoạn còn bất tiện và cần cải thiện. |
+| Problem Statement | Tôi tham gia chỉnh sửa cách diễn đạt, làm rõ đối tượng, bối cảnh và khó khăn chính. | Tập trung vào khó khăn ghi nhận, tra cứu thông tin và rào cản sử dụng ứng dụng của chủ hộ kinh doanh lớn tuổi. |
+| Mức can thiệp AI | Tôi tìm hiểu khả năng ứng dụng Voice AI kết hợp AI Agent để ghi nhận giao dịch và tra cứu bằng giọng nói. | Xác định AI hỗ trợ nhận diện lời nói, trích xuất thông tin và hỏi lại khi chưa rõ; người dùng xác nhận trước khi lưu. |
+| Quyết định | Tôi tham gia thảo luận và thống nhất hướng giải pháp Voice AI dành cho hộ kinh doanh có chủ cửa hàng lớn tuổi. | Nhóm lựa chọn hướng giải pháp giúp giảm thao tác nhập liệu và thuận tiện hơn khi tra cứu thông tin. |
 
 ---
 
@@ -175,14 +175,12 @@ Lấy lại thông tin cần tìm
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
-
----
+| CP1 Scan | Tôi dùng AI để gợi ý và tổng hợp các vấn đề có thể gặp trong hoạt động kinh doanh cửa hàng điện tử. | Giúp tôi có thêm góc nhìn và nhận diện các vấn đề ban đầu. | Một số gợi ý còn chung chung, chưa sát với tình hình cửa hàng gia đình. | Tôi chọn lại những vấn đề phù hợp với thực tế, không sử dụng tất cả gợi ý của AI. |
+| CP2 Problem Card | Tôi dùng AI để hỗ trợ xây dựng Problem Card, Job Story và xác định các pain point. | Giúp tôi sắp xếp nội dung rõ ràng, dễ theo dõi hơn. | AI đôi khi đưa ra nhận định về nguyên nhân và mức độ ảnh hưởng khi chưa có đủ thông tin chứng minh. | Tôi loại bỏ những chi tiết chưa có căn cứ và chỉnh sửa theo tình hình thực tế của gia đình. |
+| CP4 Research | Tôi dùng AI để gợi ý hướng nghiên cứu phần mềm quản lý bán hàng và các giải pháp Voice AI. | Giúp tôi xác định những tính năng cần tìm hiểu và tiêu chí so sánh. | Thông tin về sản phẩm và tính năng có thể chưa chính xác hoặc chưa được cập nhật. | Tôi đối chiếu lại với website và tài liệu chính thức trước khi sử dụng thông tin. |
+| CP5 Quy trình | Tôi dùng AI để hỗ trợ mô tả quy trình nhập hàng, bán hàng, ghi chép và kiểm tra tồn kho. | Giúp tôi sắp xếp các bước theo trình tự và dễ nhận ra những điểm bất tiện. | Nội dung ban đầu còn thiên về sử dụng phần mềm, chưa chú ý nhiều đến thói quen ghi sổ của bố mẹ. | Tôi điều chỉnh theo cách gia đình đang thực hiện và tập trung vào việc dùng giọng nói để giảm thao tác nhập liệu. |
+| CP5–6 Problem Statement | Tôi dùng AI để hỗ trợ viết và chỉnh sửa Problem Statement. | Giúp diễn đạt vấn đề mạch lạc hơn, làm rõ đối tượng và khó khăn cần giải quyết. | Một số cách diễn đạt còn rộng, dễ khiến vấn đề bị hiểu đơn giản là cửa hàng chưa có phần mềm quản lý. | Tôi chỉnh lại để nhấn mạnh khó khăn khi ghi chép, tra cứu và rào cản sử dụng ứng dụng của chủ hộ kinh doanh lớn tuổi. |
+| CP6 Mức can thiệp / quyết định | Tôi dùng AI để tìm hiểu cách kết hợp Voice AI với AI Agent trong việc ghi nhận và tra cứu giao dịch. | Giúp tôi hình dung quy trình từ lúc người dùng nói đến khi thông tin được xác nhận và lưu vào hệ thống. | AI đôi khi mô tả giải pháp như thể có thể tự xử lý mọi thứ, trong khi vẫn có nguy cơ nghe nhầm số lượng, giá tiền hoặc tên sản phẩm. | Tôi bổ sung bước đọc lại và xác nhận trước khi lưu. AI hỗ trợ tiếp nhận yêu cầu, còn hệ thống quản lý chịu trách nhiệm lưu trữ và tính toán tồn kho. |
 
 ## 6. Reflection (CP7)
 
