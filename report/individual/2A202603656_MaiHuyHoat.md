@@ -208,22 +208,26 @@ Quy trình nháp hiện tại:
 ## 6. Reflection (CP7)
 
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+** 6.1. Học được gì: **
+Thấy được sự đa dạng trong cách mổ xẻ vấn đề và phát hiện điểm nghẽn (bottleneck) ở các lĩnh vực khác từ các nhóm bạn.
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+** 6.2. Về "solution-first":**
+Nhóm từng mắc lỗi khi vừa bắt đầu đã vội bàn về công nghệ AI Agent. Nhóm nhận ra khi đối chiếu lại định hướng bài lab và đã xử lý bằng cách dừng thảo luận giải pháp, quay lại vẽ quy trình As-Is để tìm đúng điểm nghẽn.
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+** 6.3. Đổi ý khi bị phản biện:**
+Có. Ban đầu tôi đề xuất làm AI Agent tự động hoàn toàn, nhưng sau khi nhóm phản biện về rủi ro an toàn kỹ thuật (Feasibility/Viability), tôi đã đổi sang Workflow AI (RAG hỗ trợ tra cứu) có con người duyệt (HITL).
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+** 6.4. Bất ngờ từ kiểm chứng:**
+Bất ngờ lớn nhất là điểm nghẽn làm trễ quy trình không phải do thiếu máy đọc lỗi OBD-II, mà do thợ mất quá nhiều thời gian lật tìm tài liệu kỹ thuật PDF hàng nghìn trang.
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+** 6.5. Điều khó nhất khi viết Problem Statement:**
+Phải kiềm chế không đưa giải pháp/công nghệ vào câu phát biểu bài toán, đồng thời phải siết chặt ranh giới (Boundary) AI được và không được làm.
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+** 6.6. Nếu làm lại:**'
+Tôi sẽ cho nhóm phỏng vấn kiểm chứng thực địa (Mom Test) sớm hơn và phản biện mạnh hơn ở khâu tiêu chí đánh giá (Eval metrics) tính khả thi của giải pháp.
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
-
----
+** 6.7. Hiểu bài (Chuỗi logic):**
+Bài toán nhóm chọn là thời gian chẩn đoán lỗi phức tạp kéo dài tại xưởng ô tô. Quy trình hiện tại bắt đầu từ khi nhận triệu chứng, đọc mã OBD-II đến khâu lật tài liệu tra cứu thủ công. Metric mục tiêu là giảm 30% thời gian chẩn đoán và tăng độ chính xác dự trù phụ tùng. Ranh giới (Boundary) quy định AI chỉ tra cứu, tổng hợp tài liệu chứ không được tự quyết định phương án sửa chữa. Do đó, mức can thiệp AI phù hợp là Workflow (AI RAG + HITL) thay vì Agent tự động. Quyết định cuối cùng là Go cho phương án Workflow AI vì đảm bảo cả tính khả thi lẫn an toàn vận hành.
 
 ## 7. Tài liệu tham khảo
 
