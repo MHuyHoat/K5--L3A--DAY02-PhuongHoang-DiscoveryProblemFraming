@@ -13,7 +13,7 @@ Link Meet : https://meet.google.com/meet/sba-xvdd-hgy
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | Mai Huy Hoạt | 2A202603656 | Trưởng nhóm | https://github.com/MHuyHoat |
-| 2 | Bùi Lê Công Tuấn | 2A202603610 | Thành viên | |
+| 2 | Bùi Lê Công Tuấn | 2A202603610 | Thành viên | https://github.com/blct15102004 |
 | 3 | Nguyễn Đình Quang | 2A202603620 | Thành viên | |
 | 4 | Nguyễn Vũ Thành Long | 2A202603635 | Thành viên | |
 | 5 | Bùi Đăng Đăng | 2A202603640 | Thành viên | |
