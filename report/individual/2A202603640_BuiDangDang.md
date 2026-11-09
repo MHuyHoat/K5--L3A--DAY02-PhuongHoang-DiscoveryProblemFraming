@@ -19,13 +19,13 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
-| 1 | Tốn thời gian, cần đọc và tổng hợp nhiều thông tin | Khi cần tìm phòng/căn hộ mới, tôi muốn lọc nhanh các tin phù hợp với nhu cầu để không phải đọc quá nhiều bài đăng và đi xem những căn không phù hợp. | Bản thân tôi và những người đang tìm phòng/căn hộ. | Trong 1 tuần gần đây tôi trực tiếp tìm phòng mới, phải xem nhiều bài đăng, liên hệ nhiều sale/môi giới và đi xem nhiều nơi. Có nhiều bài đăng trùng nhau hoặc mô tả khác với thực tế. |
-| 2 | Tốn thời gian, lặp lại | Khi so sánh các phòng, tôi muốn biết tổng chi phí thực tế mỗi tháng để không phải hỏi lại từng sale về tiền điện, nước, phí dịch vụ, gửi xe và các khoản phát sinh. | Người đang tìm phòng/căn hộ. | Các bài đăng thường chỉ ghi giá thuê chính; các khoản điện, nước, phí dịch vụ, gửi xe không được trình bày đồng nhất nên phải hỏi lại nhiều lần. |
-| 3 | Lặp lại, pain từ người khác | Khi đã liên hệ hoặc quan tâm một căn, tôi muốn biết căn đó còn trống hay đã có người đặt cọc để không mất thời gian tiếp tục trao đổi hoặc đi xem. | Người thuê và cả sale/chủ nhà. | Có trường hợp tôi đã đi xem, thấy phòng phù hợp và chuẩn bị xuống tiền nhưng sau đó được báo là phòng đã có người khác đặt cọc trước. |
-| 4 | Cần đọc và tổng hợp nhiều thông tin | Khi cân nhắc một căn, tôi muốn biết các tiện ích và điều kiện sống xung quanh để đánh giá căn đó có phù hợp với việc học/làm và sinh hoạt hằng ngày hay không. | Người đang chuyển đến khu vực sống mới. | Thông tin như siêu thị, trường học, bệnh viện, chợ, bến xe hoặc khoảng cách thực tế thường không có trong bài đăng; phải tự tìm thêm hoặc đi xem mới biết. |
-| 5 | Tốn thời gian, lặp lại | Khi có nhiều căn tiềm năng, tôi muốn lưu lại và so sánh chúng theo cùng một bộ tiêu chí để tránh nhầm lẫn giữa các bài đăng và sale khác nhau. | Bản thân tôi và người tìm phòng qua nhiều nguồn. | Một căn có thể xuất hiện ở nhiều tài khoản sale với giá, ảnh và mô tả khác nhau; việc tự nhớ hoặc đối chiếu từng căn dễ gây nhầm lẫn. |
+| 1 | Tốn thời gian, cần đọc và tổng hợp nhiều thông tin | Khi cần tìm phòng/căn hộ mới, em muốn lọc nhanh các tin phù hợp với nhu cầu để không phải đọc quá nhiều bài đăng và đi xem những căn không phù hợp. | Bản thân em và những người đang tìm phòng/căn hộ. | Trong 1 tuần gần đây em trực tiếp tìm phòng mới, phải xem nhiều bài đăng, liên hệ nhiều sale/môi giới và đi xem nhiều nơi. Có nhiều bài đăng trùng nhau hoặc mô tả khác với thực tế. |
+| 2 | Tốn thời gian, lặp lại | Khi so sánh các phòng, em muốn biết tổng chi phí thực tế mỗi tháng để không phải hỏi lại từng sale về tiền điện, nước, phí dịch vụ, gửi xe và các khoản phát sinh. | Người đang tìm phòng/căn hộ. | Các bài đăng thường chỉ ghi giá thuê chính; các khoản điện, nước, phí dịch vụ, gửi xe không được trình bày đồng nhất nên phải hỏi lại nhiều lần. |
+| 3 | Lặp lại, pain từ người khác | Khi đã liên hệ hoặc quan tâm một căn, em muốn biết căn đó còn trống hay đã có người đặt cọc để không mất thời gian tiếp tục trao đổi hoặc đi xem. | Người thuê và cả sale/chủ nhà. | Có trường hợp em đã đi xem, thấy phòng phù hợp và chuẩn bị xuống tiền nhưng sau đó được báo là phòng đã có người khác đặt cọc trước. |
+| 4 | Cần đọc và tổng hợp nhiều thông tin | Khi cân nhắc một căn, em muốn biết các tiện ích và điều kiện sống xung quanh để đánh giá căn đó có phù hợp với việc học/làm và sinh hoạt hằng ngày hay không. | Người đang chuyển đến khu vực sống mới. | Thông tin như siêu thị, trường học, bệnh viện, chợ, bến xe hoặc khoảng cách thực tế thường không có trong bài đăng; phải tự tìm thêm hoặc đi xem mới biết. |
+| 5 | Tốn thời gian, lặp lại | Khi có nhiều căn tiềm năng, em muốn lưu lại và so sánh chúng theo cùng một bộ tiêu chí để tránh nhầm lẫn giữa các bài đăng và sale khác nhau. | Bản thân em và người tìm phòng qua nhiều nguồn. | Một căn có thể xuất hiện ở nhiều tài khoản sale với giá, ảnh và mô tả khác nhau; việc tự nhớ hoặc đối chiếu từng căn dễ gây nhầm lẫn. |
 
-**Nếu có dùng AI để gợi ý thêm:** AI gợi ý một số vấn đề liên quan đến lọc thông tin, so sánh chi phí, theo dõi trạng thái phòng và tiện ích xung quanh. Tôi chỉ giữ lại những vấn đề phù hợp với trải nghiệm tìm phòng thực tế của bản thân trong tuần vừa qua; không sử dụng các vấn đề mà tôi chưa từng gặp hoặc chưa có bằng chứng.
+**Nếu có dùng AI để gợi ý thêm:** AI gợi ý một số vấn đề liên quan đến lọc thông tin, so sánh chi phí, theo dõi trạng thái phòng và tiện ích xung quanh. Em chỉ giữ lại những vấn đề phù hợp với trải nghiệm tìm phòng thực tế của bản thân trong tuần vừa qua; không sử dụng các vấn đề mà em chưa từng gặp hoặc chưa có bằng chứng.
 
 ---
 
@@ -35,7 +35,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | Lọc và so sánh các tin phòng/căn hộ phù hợp trước khi đi xem | Đây là vấn đề tôi vừa trực tiếp gặp trong quá trình tìm phòng; tin đăng nhiều, trùng lặp, thông tin thiếu và có trường hợp thực tế khác mô tả khiến tôi phải mất công đi xem nhiều nơi. | Chưa biết những người thuê khác có gặp vấn đề này thường xuyên như tôi hay không; chưa đo chính xác thời gian bị mất cho từng bước. |
+| 1 | Lọc và so sánh các tin phòng/căn hộ phù hợp trước khi đi xem | Đây là vấn đề em vừa trực tiếp gặp trong quá trình tìm phòng; tin đăng nhiều, trùng lặp, thông tin thiếu và có trường hợp thực tế khác mô tả khiến em phải mất công đi xem nhiều nơi. | Chưa biết những người thuê khác có gặp vấn đề này thường xuyên như em hay không; chưa đo chính xác thời gian bị mất cho từng bước. |
 | 2 | Xác định tổng chi phí thực tế của một căn trước khi quyết định | Giá thuê trên bài đăng chưa phản ánh toàn bộ chi phí; người thuê phải hỏi thêm nhiều khoản nên khó so sánh giữa các căn. | Chưa biết khoản chi phí nào thường bị thiếu nhất và mức độ ảnh hưởng của việc thiếu thông tin này đến quyết định thuê. |
 | 3 | Theo dõi trạng thái còn phòng / đã đặt cọc | Trạng thái phòng thay đổi nhanh; nếu thông tin không cập nhật thì người thuê có thể mất thời gian liên hệ hoặc đi xem một căn không còn khả dụng. | Chưa biết tần suất tình trạng “phòng đã có người cọc nhưng tin vẫn còn” xảy ra với những người thuê khác. |
 
@@ -45,11 +45,11 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | Trường | Nội dung |
 |---|---|
-| **Job Story** | Khi cần tìm phòng/căn hộ mới, tôi muốn lọc và so sánh nhanh các căn phù hợp với ngân sách, vị trí và nhu cầu sống để chỉ đi xem những căn có khả năng thuê cao. |
-| **Actor** | Bản thân tôi; rộng hơn là sinh viên và người đi làm trẻ đang cần thuê phòng/căn hộ. |
+| **Job Story** | Khi cần tìm phòng/căn hộ mới, em muốn lọc và so sánh nhanh các căn phù hợp với ngân sách, vị trí và nhu cầu sống để chỉ đi xem những căn có khả năng thuê cao. |
+| **Actor** | Bản thân em; rộng hơn là sinh viên và người đi làm trẻ đang cần thuê phòng/căn hộ. |
 | **Thời điểm / bối cảnh** | Khi cần chuyển chỗ ở và tìm phòng qua các hội nhóm Facebook, mạng xã hội, môi giới hoặc các kênh đăng tin. |
 | **Quy trình hiện tại (3–7 bước)** | 1. Tìm bài đăng. 2. Đọc giá, ảnh và mô tả. 3. Liên hệ sale/chủ nhà. 4. Hỏi thêm các thông tin còn thiếu. 5. Tự so sánh nhiều căn. 6. Chọn một số căn để đi xem. 7. Đi xem thực tế rồi quyết định có tiếp tục hay không. |
-| **Bottleneck (bước nào, mất bao nhiêu phút)** | Khâu lọc và so sánh trước khi đi xem còn phụ thuộc nhiều vào thông tin không đầy đủ hoặc không đồng nhất. Tôi đã phải đi xem nhiều nơi mới biết căn không phù hợp. Hiện chưa có số phút cụ thể cho từng bước. |
+| **Bottleneck (bước nào, mất bao nhiêu phút)** | Khâu lọc và so sánh trước khi đi xem còn phụ thuộc nhiều vào thông tin không đầy đủ hoặc không đồng nhất. Em đã phải đi xem nhiều nơi mới biết căn không phù hợp. Hiện chưa có số phút cụ thể cho từng bước. |
 | **Impact (nếu không giải thì sao)** | Mất thời gian đọc tin, trao đổi với nhiều sale và di chuyển tới các căn không phù hợp; quá trình tìm nhà kéo dài và gây mệt mỏi. |
 | **Success metric (baseline → target)** | Baseline: chưa đo chính xác số giờ và số căn bị loại sau khi đi xem. Target: giảm số căn phải đi xem nhưng sau đó bị loại vì những lý do có thể biết trước; cần đo baseline trước khi đặt con số mục tiêu. |
 | **Phương án không dùng AI** | Tạo bảng so sánh có các trường cố định: giá thuê, tiền cọc, điện, nước, phí dịch vụ, gửi xe, diện tích, nội thất, vị trí, thời hạn thuê và trạng thái phòng; dùng filter thủ công để loại căn không đạt điều kiện. |
@@ -84,8 +84,8 @@ Quyết định tiếp tục / loại căn
 
 | Trường | Nội dung |
 |---|---|
-| **Job Story** | Khi so sánh các căn phòng, tôi muốn biết tổng chi phí thực tế mỗi tháng để đánh giá căn nào phù hợp với ngân sách mà không phải hỏi lại từng khoản riêng lẻ. |
-| **Actor** | Bản thân tôi và những người đang tìm thuê phòng/căn hộ. |
+| **Job Story** | Khi so sánh các căn phòng, em muốn biết tổng chi phí thực tế mỗi tháng để đánh giá căn nào phù hợp với ngân sách mà không phải hỏi lại từng khoản riêng lẻ. |
+| **Actor** | Bản thân em và những người đang tìm thuê phòng/căn hộ. |
 | **Thời điểm / bối cảnh** | Sau khi tìm được một listing có vẻ phù hợp và cần kiểm tra xem tổng chi phí có nằm trong ngân sách hay không. |
 | **Quy trình hiện tại (3–7 bước)** | 1. Xem giá thuê trên bài đăng. 2. Tìm thông tin điện/nước/phí dịch vụ. 3. Nếu thiếu thì nhắn sale hỏi. 4. Hỏi thêm phí gửi xe, Internet hoặc khoản khác. 5. Tự cộng tổng chi phí dự kiến. 6. So sánh với các căn khác. |
 | **Bottleneck (bước nào, mất bao nhiêu phút)** | Các bài đăng không dùng cùng một cách ghi chi phí nên phải hỏi lại và tự tính; chưa có số liệu cụ thể về số phút mỗi lần. |
@@ -117,7 +117,7 @@ So sánh với ngân sách và các căn khác
 
 | Trường | Nội dung |
 |---|---|
-| **Job Story** | Khi đã quan tâm một căn, tôi muốn biết căn đó còn trống hay đã có người đặt cọc để không mất thời gian trao đổi hoặc đi xem một căn không còn khả dụng. |
+| **Job Story** | Khi đã quan tâm một căn, em muốn biết căn đó còn trống hay đã có người đặt cọc để không mất thời gian trao đổi hoặc đi xem một căn không còn khả dụng. |
 | **Actor** | Người đang tìm phòng/căn hộ; sale/chủ nhà cũng bị ảnh hưởng vì phải trả lời lại tình trạng phòng cho nhiều người. |
 | **Thời điểm / bối cảnh** | Sau khi người thuê đã xem thông tin, liên hệ và đang cân nhắc đặt lịch đi xem hoặc đặt cọc. |
 | **Quy trình hiện tại (3–7 bước)** | 1. Thấy listing phù hợp. 2. Nhắn sale/chủ nhà hỏi phòng. 3. Xác nhận còn phòng. 4. Hẹn thời gian đi xem. 5. Đi xem. 6. Nếu phù hợp thì quyết định đặt cọc. 7. Có thể nhận thông báo phòng đã được người khác cọc trước. |
@@ -176,13 +176,13 @@ Có thể phát hiện căn đã được người khác đặt cọc
 | Pitch Problem Card (CP3) | Trình bày bài toán lọc và so sánh phòng/căn hộ dựa trên trải nghiệm tìm phòng, bao gồm tin trùng, thiếu thông tin và trạng thái phòng cập nhật chậm. | Candidate đạt **32/35, xếp hạng 3**; đóng góp một hướng so sánh thực tế cho nhóm. |
 | Phản biện và nhận phản biện (CP3) | Cùng nhóm xem xét rủi ro dữ liệu của từng candidate: tin phòng phụ thuộc chủ nhà/sale; tồn kho không thể chính xác nếu giao dịch ghi thiếu. | Nhận ra phải kiểm tra nguyên nhân gốc và so sánh phương án không dùng AI trước khi chọn công nghệ. |
 | Gom OST và chọn candidate (CP3) | Tham gia hội tụ theo Outcome – Opportunity – Solution và 7 tiêu chí chấm điểm. | Nhóm chọn **quản lý kho hộ kinh doanh nhỏ (34/35)**, nhưng chưa mặc định xây AI Agent. |
-| Kiểm chứng / research (CP4) | Tổng hợp kết quả nghiên cứu nhóm: phỏng vấn **4 vai trò** tại cửa hàng điện tử của gia đình thành viên Long, đối chiếu các giải pháp KiotViet, Sapo, MISA eShop, Knote và MISA AMIS CRM. | **4/4 người** gặp khó khăn hằng tuần. Điểm nghẽn chính chuyển từ “tra giá chậm” sang **giao dịch ghi muộn/ghi sót lúc đông khách**. Tổng hợp cuối ngày mất khoảng **10–15 phút/ngày**, kiểm đếm **20–30 phút/lần, khoảng 2 lần/tuần**. Đây là kết quả chung của nhóm, không phải phỏng vấn do cá nhân tôi trực tiếp thực hiện. |
+| Kiểm chứng / research (CP4) | Tổng hợp kết quả nghiên cứu nhóm: phỏng vấn **4 vai trò** tại cửa hàng điện tử của gia đình thành viên Long, đối chiếu các giải pháp KiotViet, Sapo, MISA eShop, Knote và MISA AMIS CRM. | **4/4 người** gặp khó khăn hằng tuần. Điểm nghẽn chính chuyển từ “tra giá chậm” sang **giao dịch ghi muộn/ghi sót lúc đông khách**. Tổng hợp cuối ngày mất khoảng **10–15 phút/ngày**, kiểm đếm **20–30 phút/lần, khoảng 2 lần/tuần**. Đây là kết quả chung của nhóm, không phải phỏng vấn do cá nhân em trực tiếp thực hiện. |
 | Quy trình trước/sau (CP5) | Đối chiếu As-Is (ghi tay, tra sổ, hỏi lại, kiểm hàng) với To-Be dự kiến (chuẩn hóa giao dịch, lưu tập trung, hỗ trợ tra cứu/trích xuất, người bán xác nhận). | Xác định **ghi nhận dữ liệu đầy đủ** là điều kiện tiên quyết; Rule xử lý tính tồn, con người chịu trách nhiệm kiểm tra. Các thời gian To-Be vẫn là kỳ vọng, chưa đo bằng pilot. |
 | Problem Statement (CP5–CP6) | Theo dõi việc điều chỉnh actor, bottleneck, metric và boundary từ v0 sang v1 dựa trên CP4. | Actor gồm người trực tiếp bán và quản lý kho; cần đo **thời gian tra cứu, tỷ lệ giao dịch ghi đủ, mức lệch tồn kho**. AI không tự sửa giao dịch, đặt giá hoặc quyết định nhập hàng. |
 | Mức can thiệp AI (CP6) | Cùng nhóm đối chiếu No AI / Rule / Workflow / Agent và các rủi ro Value, Usability, Feasibility, Viability. | Nhóm **đề xuất Workflow trên nền No AI/Rule**, với AI hỗ trợ trích xuất và tra cứu; giao dịch phải được người dùng xác nhận. Chưa chọn Agent do thiếu dữ liệu đáng tin cậy. |
 | Quyết định và bước tiếp theo (CP6–CP7) | Ghi nhận quyết định **tiếp tục cải thiện và kiểm chứng**, chưa triển khai ngay AI; tổng hợp các điểm cần suy ngẫm cho reflection cá nhân. | Cần đo baseline, thử ghi nhận giao dịch trong 1–2 tuần và kiểm tra khả năng nhận diện tên hàng điện tử từ lời nói/ảnh; mới quyết định pilot sau khi đủ bằng chứng. |
 
-> **Phạm vi đóng góp:** CP4–CP6 trên đây tóm tắt tài liệu và kết quả **của cả nhóm**, không khẳng định tôi là người trực tiếp phỏng vấn, đo đạc hoặc triển khai thử nghiệm. Nguồn CP4 cho biết đã phỏng vấn 4 người; một số dòng trong bản CP6 vẫn mô tả “chưa phỏng vấn”, vì vậy báo cáo này ưu tiên kết quả CP4 mới có bằng chứng cụ thể.
+> **Phạm vi đóng góp:** CP4–CP6 trên đây tóm tắt tài liệu và kết quả **của cả nhóm**, không khẳng định em là người trực tiếp phỏng vấn, đo đạc hoặc triển khai thử nghiệm. Nguồn CP4 cho biết đã phỏng vấn 4 người; một số dòng trong bản CP6 vẫn mô tả “chưa phỏng vấn”, vì vậy báo cáo này ưu tiên kết quả CP4 mới có bằng chứng cụ thể.
 
 ---
 
@@ -190,15 +190,13 @@ Có thể phát hiện căn đã được người khác đặt cọc
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| **CP1 Scan** | Gợi ý cấu trúc Job Story và nhóm pain từ trải nghiệm tìm phòng. | Diễn đạt rõ “Khi… tôi muốn… để…”. | Dễ nhảy sớm sang hệ thống AI tìm phòng. | Chỉ giữ các tình huống tôi thực sự gặp; tách problem khỏi solution. |
+| **CP1 Scan** | Gợi ý cấu trúc Job Story và nhóm pain từ trải nghiệm tìm phòng. | Diễn đạt rõ “Khi… tôi muốn… để…”. | Dễ nhảy sớm sang hệ thống AI tìm phòng. | Chỉ giữ các tình huống em thực sự gặp; tách problem khỏi solution. |
 | **CP2 Problem Card** | Chuẩn hóa Actor, quy trình, bottleneck, impact, metric và hướng No AI. | Giúp tách ba vấn đề thành các card độc lập. | Đề xuất chỉ tiêu khi chưa có baseline thực tế. | Không tự đặt số đo; nêu rõ giả định cần kiểm chứng. |
 | **CP3 Hội tụ** | Hỗ trợ tổng hợp 6 candidate, phản biện và phân biệt Outcome – Opportunity – Solution. | Làm rõ tiêu chí so sánh và các mức No AI / Rule / Workflow / Agent. | Có xu hướng ưu tiên giải pháp AI hoặc coi điểm số đánh giá là bằng chứng thực nghiệm. | Dùng điểm đã thống nhất của nhóm; chọn **problem quản lý kho**, chưa mặc định Agent. |
 
 ---
 
 ## 6. Reflection (CP7)
-
-> **Bản nháp suy ngẫm cá nhân để rà soát trước khi nộp.** Các nhận định về diễn biến thảo luận và cảm nhận cá nhân cần được tôi kiểm tra lại, điều chỉnh theo điều mình thực sự trải nghiệm.
 
 ### 6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?
 
@@ -214,7 +212,7 @@ Ban đầu em ưu tiên bài toán lọc và so sánh phòng vì đã trực ti�
 
 ### 6.4. Kết quả kiểm chứng có làm tôi bất ngờ không? Điều gì?
 
-Điểm đáng chú ý nhất trong kết quả CP4 của nhóm là "tra giá thường chỉ mất 1–5 phút/lần", trong khi ghi chép giao dịch cuối ngày và kiểm đếm kho tốn thời gian hơn. Điều đó thay đổi cách nhìn về bottleneck: không chỉ là tìm thông tin nhanh hơn, mà phải hạn chế giao dịch bị ghi muộn hoặc bỏ sót ngay từ lúc bán. Đây là kết quả em đọc từ báo cáo kiểm chứng chung, không phải quan sát do em trực tiếp thực hiện.
+Điểm đáng chú ý nhất trong kết quả CP4 của nhóm là "tra giá thường chỉ mất 1–5 phút/lần", trong khi ghi chép giao dịch cuối ngày và kiểm đếm kho tốn thời gian hơn. Điều đó thay đổi cách nhìn về bottleneck: không chỉ là tìm thông tin nhanh hơn, mà phải hạn chế giao dịch bị ghi muộn hoặc bỏ sót ngay từ lúc bán. Đây là kết quả em đọc từ báo cáo kiểm chứng chung, không phải quan sát do em trực tiếp thực hiện. Ngoài ra thì khi trực tiếp phản biện cùng các thành viên trong nhóm thì cũng có khá nhiều vấn đề như: bỏ sót hàng, thao tác chậm và không thể xử lý nhanh khi gặp đông khách hoặc 1 người mua nhiều mặt hàng cùng lúc.
 
 ### 6.5. Điều khó nhất khi viết Problem Statement là gì?
 
