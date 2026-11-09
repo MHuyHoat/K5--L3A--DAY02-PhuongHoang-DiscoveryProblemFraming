@@ -5,7 +5,7 @@ Link Meet : https://meet.google.com/meet/sba-xvdd-hgy
 ## Thông tin nhóm
 
 - Tên nhóm: Phượng Hoàng
-- Candidate problem nhóm chọn (1 câu):
+- Candidate problem nhóm chọn (1 câu): Quản lý kho cho hộ kinh doanh nhỏ
 - Quyết định cuối (Go / Not Yet / No-Go): Go 
 
 ## Thành viên
