@@ -499,16 +499,19 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Chủ cửa hàng điện tử và các thành viên trực tiếp ghi nhận, tra cứu và quản lý hàng hóa, giao dịch bán hàng |
+| **Quy trình** | Khi cần kiểm tra một sản phẩm, người quản lý tìm thông tin trong sổ hoặc các nguồn ghi chép, đối chiếu lịch sử nhập và bán, kiểm tra hàng thực tế, tính số lượng còn lại rồi mới trả lời khách hoặc quyết định nhập thêm hàng |
+| **Bottleneck** | Bước tìm và đối chiếu lịch sử giao dịch với hàng thực tế mất nhiều thời gian vì dữ liệu nhập, xuất, giá bán và số lượng chưa được ghi nhận đầy đủ, thống nhất và tập trung |
+| **Impact** | Người quản lý mất thời gian tra cứu, khó xác định chính xác giá bán cũ và tồn kho, có nguy cơ trả lời khách sai, thiếu hàng bất ngờ hoặc ra quyết định nhập hàng dựa trên dữ liệu không đầy đủ |
+| **Success Metric** (baseline → target, cách đo) | Baseline tạm ước lượng: 15–30 phút cho một lần tra cứu phức tạp → Target: dưới 5 phút/lần; đồng thời giảm số lần phải kiểm đếm lại hàng thực tế. Cách đo: ghi thời điểm bắt đầu và kết thúc của ít nhất 10 lượt tra cứu trước và sau pilot, đồng thời ghi số trường hợp dữ liệu hệ thống lệch với hàng thực tế |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | AI không tự tạo hoặc sửa giao dịch, không tự điều chỉnh tồn kho, không quyết định giá bán và không suy đoán khi thiếu dữ liệu. Chủ cửa hàng hoặc người quản lý phải kiểm tra kết quả trước khi trả lời khách, báo giá, nhập hàng hoặc điều chỉnh tồn kho |
 
-Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
+**Phản biện nhận được và cách nhóm xử lý:**
 
--
+- Phản biện: Vấn đề cốt lõi có thể là dữ liệu chưa được ghi nhận đầy đủ chứ không phải thiếu công cụ AI.
+- Nhóm đồng ý. Quy trình tương lai ưu tiên biểu mẫu chuẩn và Rule để ghi nhận, kiểm tra và cập nhật tồn kho. AI chỉ là khả năng bổ sung sau khi dữ liệu đủ và đáng tin cậy.
+- Phản biện: Baseline 15–30 phút hiện mới là ước lượng.
+- Nhóm đồng ý. Trước khi nộp bản cuối, nhóm cần thay bằng số liệu đo từ ít nhất 5–10 lần tra cứu thực tế hoặc từ kết quả phỏng vấn CP4.
 
 ---
 
