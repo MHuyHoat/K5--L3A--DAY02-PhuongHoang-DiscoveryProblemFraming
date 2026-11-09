@@ -175,20 +175,22 @@ Quy trình nháp hiện tại:
 | Dữ liệu Manual của các hãng ô tô có thể ở định dạng hình ảnh/PDF không chuẩn khiến RAG khó đọc. | Đồng ý | Thêm phần "Điều còn chưa chắc" vào bảng Top 3 để nhóm thảo luận giải pháp xử lý OCR/Data Prep cho file manual. |
 
 ---
+
+
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| **Pitch Problem Card** | Trình bày Problem Card về vấn đề thợ kỹ thuật mất thời gian tra cứu tài liệu kỹ thuật và chẩn đoán lỗi xe kéo dài tại xưởng dịch vụ ô tô. | Giúp nhóm nhanh chóng đồng thuận chọn đây làm đề tài trọng tâm vì tính thực tế và đo lường được. |
+| **Phản biện bài của bạn khác** | Đặt câu hỏi phản biện về việc xác định đúng actor trong quy trình dịch vụ ô tô (phân biệt rõ vai trò của khách hàng, cố vấn dịch vụ và thợ kỹ thuật). | Giúp nhóm bạn điều chỉnh lại đối tượng chịu ảnh hưởng trực tiếp, tránh nhầm lẫn giữa người sử dụng xe và người thực hiện quy trình. |
+| **Nhận phản biện** | Lắng nghe ý kiến phản biện của nhóm về rủi ro an toàn kỹ thuật (Feasibility & Viability) khi đề xuất ban đầu dùng AI Agent tự động sửa chữa. | Thuyết phục nhóm hạ mức can thiệp AI từ Agent sang **Workflow AI (RAG + Human-In-The-Loop)** để đảm bảo an toàn tuyệt đối. |
+| **Gom cluster / cây OST** | Tham gia phân loại các nỗi đau thành cụm liên quan đến tra cứu tài liệu sửa chữa, chẩn đoán lỗi điện phức tạp và ùn ứ xe tại xưởng. | Làm nổi bật rõ ràng điểm nghẽn cốt lõi (bottleneck) thay vì dàn trải sang nhiều vấn đề rời rạc. |
+| **Chọn candidate problem** | Đóng góp lập luận bảo vệ cho Candidate 1 (Xưởng dịch vụ ô tô) dựa trên kinh nghiệm thực tế vận hành và kỹ thuật. | Giúp nhóm chốt thống nhất 1 Problem Candidate duy nhất để đi sâu vào kiểm chứng và thiết kế giải pháp. |
+| **Kiểm chứng / research** | Tìm hiểu thực tế quy trình tại xưởng, xác định bottleneck không phải do thiếu máy đọc lỗi OBD-II mà do lật tài liệu PDF hàng nghìn trang. | Cung cấp luận cứ thực tế sắc bén cho phần bảo vệ bài toán của nhóm. |
+| **Quy trình nhóm** | Xây dựng và hoàn thiện sơ đồ quy trình hiện tại (As-Is) và quy trình cải tiến (To-Be) của xưởng dịch vụ. | Làm rõ các bước trung gian và định lượng chính xác thời gian lãng phí ở từng khâu. |
+| **Problem Statement** | Tham gia viết và tinh chỉnh câu phát biểu Problem Statement v0 và v1 theo chuẩn Lean UX. | Đảm bảo câu phát biểu không bị dính lỗi "solution-first" và có success metric rõ ràng. |
+| **Mức can thiệp AI** | Đề xuất phương án ứng dụng RAG để tra cứu tài liệu kỹ thuật và tóm tắt triệu chứng cho thợ. | Định hình chính xác mức độ can thiệp là **Workflow** kèm cơ chế kiểm duyệt của con người. |
+| **Quyết định** | Đưa ra quyết định **Go** cho phương án Workflow AI với luận chứng chặt chẽ về giá trị và tính khả thi. | Hoàn thiện bức tranh lập luận logic cho toàn bộ bài lab của nhóm. |
 
 ---
 
@@ -196,37 +198,37 @@ Quy trình nháp hiện tại:
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| **CP1 Scan** | Nhờ AI gợi ý các nỗi đau thường gặp trong lĩnh vực vận hành xưởng ô tô và tự động hóa. | Giúp mở rộng nhanh các góc nhìn về quy trình bảo dưỡng và cơ khí. | Đưa ra các ý tưởng quá chung chung, chưa sát với thực tế vận hành tại các xưởng dịch vụ Việt Nam. | Tự chọn lọc, điều chỉnh lại các nỗi đau sát thực tế của thợ kỹ thuật (lỗi điện chập chờn, tra cứu tài liệu PDF rời rạc). |
+| **CP2 Problem Card** | Nhờ AI hỗ trợ cấu trúc hóa bảng Problem Card và định hình các trường Job Story. | Chuẩn hóa văn phong và định dạng bảng Markdown theo đúng yêu cầu của bài lab. | Viết Job Story đôi khi bị dính yếu tố giải pháp sẵn (solution-first). | Viết lại hoàn toàn Job Story tập trung vào hành vi và nỗi đau thực tế của actor thay vì nhắc đến công nghệ. |
+| **CP4 Research** | Tìm kiếm thông tin tham khảo về các hệ thống hỗ trợ chẩn đoán ô tô trên thị trường. | Tổng hợp nhanh thông tin về các giải pháp RAG và hệ thống quản lý xưởng (DMS). | Nhầm lẫn giữa thiết bị chẩn đoán phần cứng (máy OBD-II) với phần mềm quản lý tri thức kỹ thuật. | Đính chính lại ranh giới bài toán: tập trung vào phần mềm tra cứu tri thức kỹ thuật thay vì sản xuất phần cứng máy đọc lỗi. |
+| **CP5 Quy trình** | Nhờ AI gợi ý sơ đồ các bước trong quy trình As-Is và To-Be của xưởng dịch vụ. | Gợi ý logic tuần tự các bước từ tiếp nhận xe đến chẩn đoán và báo giá. | Bỏ sót bước kiểm tra tồn kho phụ tùng trung gian giữa thợ kỹ thuật và thủ kho. | Bổ sung thêm bước kiểm tra kho phụ tùng và điểm nghẽn thời gian cụ thể vào sơ đồ quy trình. |
+| **CP5–6 Problem Statement** | Nhờ AI soạn thảo câu phát biểu Problem Statement v0 và v1 kèm ranh giới (Boundary). | Cấu trúc câu theo chuẩn Lean UX và Google PAIR có success metric đo được. | Đặt success metric quá lý tưởng (giảm 100% thời gian) không khả thi trong thực tế. | Điều chỉnh success metric về mức thực tế hơn (giảm 30% thời gian chẩn đoán) và siết chặt ranh giới AI không được tự ý duyệt sửa xe. |
+| **CP6 Mức can thiệp / quyết định** | Nhờ AI phân tích ưu nhược điểm giữa các mức độ No AI, Rule, Workflow và Agent. | Đưa ra các tiêu chí đánh giá rủi ro (Value, Usability, Feasibility, Viability). | Đề xuất phương án Agent tự động hoàn toàn mà không lường hết rủi ro pháp lý và an toàn ô tô. | Kiên quyết chọn mức Workflow kết hợp Human-In-The-Loop để đảm bảo an toàn tuyệt đối cho người và phương tiện. |
 
 ---
 
 ## 6. Reflection (CP7)
 
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
-** 6.1. Học được gì: **
+**6.1. Học được gì:**
 Thấy được sự đa dạng trong cách mổ xẻ vấn đề và phát hiện điểm nghẽn (bottleneck) ở các lĩnh vực khác từ các nhóm bạn.
 
-** 6.2. Về "solution-first":**
+**6.2. Về "solution-first":**
 Nhóm từng mắc lỗi khi vừa bắt đầu đã vội bàn về công nghệ AI Agent. Nhóm nhận ra khi đối chiếu lại định hướng bài lab và đã xử lý bằng cách dừng thảo luận giải pháp, quay lại vẽ quy trình As-Is để tìm đúng điểm nghẽn.
 
-** 6.3. Đổi ý khi bị phản biện:**
+**6.3. Đổi ý khi bị phản biện:**
 Có. Ban đầu tôi đề xuất làm AI Agent tự động hoàn toàn, nhưng sau khi nhóm phản biện về rủi ro an toàn kỹ thuật (Feasibility/Viability), tôi đã đổi sang Workflow AI (RAG hỗ trợ tra cứu) có con người duyệt (HITL).
 
-** 6.4. Bất ngờ từ kiểm chứng:**
+**6.4. Bất ngờ từ kiểm chứng:**
 Bất ngờ lớn nhất là điểm nghẽn làm trễ quy trình không phải do thiếu máy đọc lỗi OBD-II, mà do thợ mất quá nhiều thời gian lật tìm tài liệu kỹ thuật PDF hàng nghìn trang.
 
-** 6.5. Điều khó nhất khi viết Problem Statement:**
+**6.5. Điều khó nhất khi viết Problem Statement:**
 Phải kiềm chế không đưa giải pháp/công nghệ vào câu phát biểu bài toán, đồng thời phải siết chặt ranh giới (Boundary) AI được và không được làm.
 
-** 6.6. Nếu làm lại:**'
+**6.6. Nếu làm lại:**'
 Tôi sẽ cho nhóm phỏng vấn kiểm chứng thực địa (Mom Test) sớm hơn và phản biện mạnh hơn ở khâu tiêu chí đánh giá (Eval metrics) tính khả thi của giải pháp.
 
-** 6.7. Hiểu bài (Chuỗi logic):**
+**6.7. Hiểu bài (Chuỗi logic):**
 Bài toán nhóm chọn là thời gian chẩn đoán lỗi phức tạp kéo dài tại xưởng ô tô. Quy trình hiện tại bắt đầu từ khi nhận triệu chứng, đọc mã OBD-II đến khâu lật tài liệu tra cứu thủ công. Metric mục tiêu là giảm 30% thời gian chẩn đoán và tăng độ chính xác dự trù phụ tùng. Ranh giới (Boundary) quy định AI chỉ tra cứu, tổng hợp tài liệu chứ không được tự quyết định phương án sửa chữa. Do đó, mức can thiệp AI phù hợp là Workflow (AI RAG + HITL) thay vì Agent tự động. Quyết định cuối cùng là Go cho phương án Workflow AI vì đảm bảo cả tính khả thi lẫn an toàn vận hành.
 
 ## 7. Tài liệu tham khảo
