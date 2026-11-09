@@ -9,8 +9,8 @@
 - Họ tên: NGUYỄN GIA BẢO
 - MSSV: 2A202603647
 - Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:
-- Link repo nhóm:
+- Tên nhóm: Phượng Hoàng
+- Link repo nhóm: https://github.com/MHuyHoat/K5--L3A--DAY02-PhuongHoang-DiscoveryProblemFraming
 
 ---
 
@@ -174,55 +174,66 @@ Quy trình nháp hiện tại:
 ---
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
-
+ 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
-
+| Pitch Problem Card | Pitch card "Đối chiếu JD và đề xuất bullet/keyword để sửa CV cho sinh viên năm 3/4" (2 lần/tuần × 30–45 phút), kèm 2 card dự phòng: phân công trong nhóm chat và CSKH sàn phế liệu GRAC. | Card được đưa vào bảng chấm điểm CP3, đạt 27/35 (rank 5). |
+| Phản biện bài của bạn khác | Có khi nào bị thất thoát hay lạc mất sổ sách khi đông khách hàng | |
+| Nhận phản biện | Câu hỏi tôi nhận được: Thị trường đã có nhiều công cụ ATS/keyword matching chưa? Phần lớn có giải được bằng Rule/checklist không? AI có nguy cơ tự viết kinh nghiệm không có thật không? | Tôi đã sửa gì: đồng ý card có điểm "pain có bằng chứng" và "so sánh mức can thiệp" thấp hơn bài quản lý kho; không giữ card của mình, chuyển sang hỗ trợ candidate của Long. |
+| Gom cluster / cây OST | Đọc top 3 của cả 6 thành viên, gom thành 5 cluster (thông tin học tập rải rác, tìm phòng trọ, chuyên cần trường phổ thông, tra cứu kỹ thuật ô tô, vấn đề cá nhân). | Làm tư liệu cho nhóm so sánh trước khi chấm điểm (CP3 chính do Đăng và Hoạt phụ trách). |
+| Chọn candidate problem | Đồng ý chọn bài quản lý kho cho hộ kinh doanh nhỏ (34/35) vì có người dùng thật để phỏng vấn ngay. | Nhóm chốt candidate của Long. |
+| Kiểm chứng / research | Người chính CP4: viết Assumption Map 6 giả định; soạn câu hỏi phỏng vấn kiểu Mom Test; tổng hợp 4 interview snapshot; research 5 công cụ có link (KiotViet, Sapo POS, MISA eShop, Knote, MISA AMIS CRM). | Kiểm chứng làm **đổi bottleneck** từ "tra cứu sổ" sang "giao dịch không được ghi ngay và ghi đủ lúc đông khách"; mở rộng actor thành 4 vai trò cùng bán hàng (mục 3.2 báo cáo nhóm). |
+| Quy trình nhóm | Không phụ trách chính (CP5 do Tuấn). Cung cấp số liệu phỏng vấn ở CP4 làm đầu vào cho quy trình hiện tại. | |
+| Problem Statement | Không phụ trách chính. Kết luận CP4 "dữ liệu thiếu thì AI không tra cứu chính xác được" được đưa vào trường "Điều kiện dữ liệu" của Problem Statement v1. | |
+| Mức can thiệp AI | Từ research CP4, đề xuất đặt AI ở **bước ghi nhận** (giọng nói/ảnh giấy ghi tạm → giao dịch nháp → người bán xác nhận) và nêu phương án quét mã vạch (No AI) để so sánh. | Problem Statement v1 chọn **Workflow**, AI intervention point (1) là trích xuất ghi chép/hóa đơn thành bản ghi chuẩn. |
+| Quyết định | Đồng ý lấy bài của Long để báo cáo vì tính thực tế cao và nhiều người gặp phải | |
+ 
 ---
 
 ## 5. Dùng AI
-
+ 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
 | CP1 Scan | Góp ý Job Story tự viết; gợi ý thêm vấn đề theo 4 lăng kính. | Chỉ ra Job Story bị cụt/thiếu vế "để…", cột dấu hiệu thiếu tần suất, thiếu lăng kính "Pain từ người khác". | Một số gợi ý chưa có số liệu, tần suất thấp hoặc trùng actor. | Chỉ giữ 1/5 gợi ý (#6) và tự đếm số câu hỏi trong chat nhóm làm bằng chứng. |
 | CP2 Problem Card | Chọn top 3, soạn card theo format, đóng vai PM hoài nghi phản biện. | Phát hiện bottleneck có thể nằm ở bước quyết định nộp; nhắc phương án không dùng AI cho card #2. | Số phút từng bước do AI chia ra từ tổng thời gian, chưa phải số đo thật. | Giữ boundary "tôi duyệt trước khi nộp"; không chấp nhận gợi ý để AI tự nộp CV. |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
-
+| CP4 Research | Tìm công cụ có sẵn kèm link; soạn Assumption Map và bộ câu hỏi phỏng vấn kiểu Mom Test; sắp 4 buổi phỏng vấn thành snapshot và bảng tổng hợp. | Tìm được công cụ Việt Nam có link kiểm chứng, trong đó có Knote (ghi đơn bằng giọng nói); từ số liệu phỏng vấn, chỉ ra tra giá chỉ mất 1–5 phút/lần, phần tốn thời gian là tổng hợp sổ và đếm kho. | Ban đầu soạn CP4 cho bài Sửa CV khi nhóm chưa chốt candidate, phải làm lại. Một link về chính sách thuế lấy từ trang của MISA (bên bán phần mềm), nguồn thiên vị. Knote được thiết kế cho quán ăn, chưa chắc chạy tốt với tên model hàng điện tử. | Ghi chú rõ nguồn thiên vị trong bảng research; biến "AI có nhận đúng tên model điện tử không" thành giả định #5 cần kiểm chứng thay vì coi là đã đúng. Tôi muốn đi theo hướng AI Agent; AI phản biện rằng bước ghi nhận có đầu ra đúng/sai rõ nên hợp Workflow. Tôi đồng ý, chỉ đặt AI ở bước ghi nhận và giữ người bán xác nhận trước khi lưu. |
+| CP5 Quy trình | Không phụ trách chính, không dùng AI cho phần này. | | | |
+| CP5–6 Problem Statement | Không phụ trách chính, không dùng AI cho phần này. | | | |
+| CP6 Mức can thiệp / quyết định | Không phụ trách chính, không dùng AI cho phần này. | | | |
+ 
 ---
-
 ## 6. Reflection (CP7)
-
+ 
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
-
+ 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+- Học được cách xác định problem từ các nhóm khác, không chỉ tập trung vào giải pháp.
+- Từ pitch của Quang và card CV của bản thân, nhận ra không phải vấn đề nào cũng cần AI. Luôn hỏi: “Có cách nào đơn giản hơn không cần AI không?”
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-
+ - Nhóm từng solution-first khi đặt tên Candidate là “AI Agent hỗ trợ quản lý kho”. Đến CP3 mới nhận ra và chuyển về problem thực tế: khó ghi nhận, tra cứu, đối chiếu nhập – xuất – tồn.
+   
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-
+ - Tôi đã muốn chọn Agent nhưng bị phản biện vì giao dịch kho có đầu ra đúng/sai rõ ràng. Sau đó chuyển sang Workflow, chỉ dùng AI ở bước ghi nhận. Nêu cảm xúc và lý do bạn chấp nhận thay đổi.
+   
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-
+ - Phỏng vấn cho thấy tra giá chỉ mất 1–5 phút, còn tổng hợp sổ cuối ngày và đếm kho mới tốn thời gian. Research cũng cho thấy KiotViet, Sapo, MISA đã giải quyết tra cứu; Knote hỗ trợ ghi đơn bằng giọng nói.
+   
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+ - Khó nhất là xác định quyền hạn của AI: chỉ tạo giao dịch nháp, không tự lưu, sửa tồn kho hay đổi giá. Phân tích vì sao bỏ sót giao dịch nguy hiểm hơn báo nhầm.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+ - Nếu làm lại, tôi sẽ đề xuất với team rằng nên phỏng vấn người nhà Long trước khi viết workflow CP5; kiểm tra tính nhất quán giữa báo cáo phỏng vấn và kết quả Discovery; phản biện kỹ hơn quyết định Go khi Feasibility còn rủi ro cao.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
-
----
-
+ - Các cửa hàng điện tử hộ gia đình gặp khó khăn trong việc ghi nhận, tra cứu và đối chiếu dữ liệu nhập – xuất – tồn. Qua phỏng vấn, cả 4/4 người tham gia đều xác nhận gặp vấn đề này hằng tuần; việc tổng hợp sổ mất 10–15 phút/ngày và kiểm đếm hàng hóa mất 20–30 phút/lần. Những phát hiện này cho thấy bottleneck chủ yếu nằm ở việc ghi nhận giao dịch không kịp thời, đặc biệt khi cửa hàng đông khách, chứ không phải tra cứu giá. Nhóm sử dụng ba metric gồm thời gian tra cứu, tỷ lệ giao dịch được ghi nhận đầy đủ và mức sai lệch tồn kho; target cụ thể sẽ được xác định sau khi có baseline đáng tin cậy. Về boundary, AI chỉ hỗ trợ tạo giao dịch nháp và tra cứu, không tự lưu giao dịch, thay đổi giá hoặc điều chỉnh tồn kho khi chưa có xác nhận của người dùng. Nhóm lựa chọn Workflow kết hợp AI thay vì chỉ dùng Rule vì Rule không xử lý tốt ghi chép tự do, đồng thời không chọn Agent tự chủ vì các giao dịch liên quan trực tiếp đến số lượng và giá trị hàng hóa nên cần con người kiểm tra. Nhóm quyết định Go với một pilot nhỏ trên một nhóm hàng trong 2 tuần; nếu tỷ lệ giao dịch được ghi nhận đầy đủ dưới 70%, nhóm sẽ dừng hướng AI và quay về phương án No AI.
+ 
 ## 7. Tài liệu tham khảo
-
--
+ 
+- Knote (KiotViet) — https://apps.apple.com/us/app/knote/id6738162895
+- MISA AMIS CRM, Thêm đơn hàng bằng AI — https://amis.misa.vn/274495/them-don-hang-bang-ai-tren-misa-amis-crm-nhanh-hon-chinh-xac-hon-tiet-kiem-80-thoi-gian/
+- KiotViet — https://apps.apple.com/vn/app/kiotviet/id1146695068
+- Sapo POS — https://www.sapo.vn
+- MISA eShop — https://www.misaeshop.vn
+- Rob Fitzpatrick, *The Mom Test* (cách đặt câu hỏi phỏng vấn)
+- David Bland, *Testing Business Ideas* (Assumption Map)
