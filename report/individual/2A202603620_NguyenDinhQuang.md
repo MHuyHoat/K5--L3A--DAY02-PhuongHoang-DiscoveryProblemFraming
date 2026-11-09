@@ -124,22 +124,26 @@ Bottleneck giả định: bước "tìm lại bằng chứng" (___ phút/ca, nhi
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-
+| Chưa có số liệu cụ thể về thời gian tra cứu, tần suất gặp vấn đề và mức độ sai lệch tồn kho. | Đồng ý | Không tự đặt số liệu; ghi rõ các chỉ số cần khảo sát và đo lường thực tế trước khi đặt mục tiêu. |
+| Dữ liệu ghi chép chưa đầy đủ thì AI khó đưa ra kết quả tra cứu chính xác. | Đồng ý | Bổ sung phương án chuẩn hóa và ghi nhận đầy đủ giao dịch nhập, xuất, bán hàng trước khi ứng dụng AI. |
+| Cần xác định rõ AI hỗ trợ công đoạn nào thay vì dùng AI cho toàn bộ quy trình quản lý. | Đồng ý | Giới hạn giả thuyết AI ở việc tìm kiếm lịch sử giao dịch, tổng hợp thông tin bán hàng và tra cứu hàng hóa dựa trên dữ liệu đã ghi nhận. |
+| Ở CP6, target (giảm một nửa thời gian, ≥ 90% giao dịch ghi đủ) và ngưỡng dừng (70%, 10%) mới là đề xuất, chưa có baseline để làm căn cứ. | Đồng ý | Ghi rõ các con số là đề xuất, chỉ chốt sau khi đo baseline; đưa "đo baseline" thành việc đầu tiên trong kết luận Not Yet. |
+| Value và Usability mới dựa trên trải nghiệm cá nhân, chưa phỏng vấn hay quan sát người nhà. | Đồng ý | Đánh giá Value/Usability ở mức TB thay vì Thấp; thêm "phỏng vấn/quan sát người nhà" vào danh sách cần kiểm chứng trước khi Go và vào phần hạn chế. |
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
 | Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Hỏi Bảo : "Dữ liệu bạn lấy ở đâu ? tiêu chuẩn đánh giá CV như nào ? So với việc gửi CV lên AI khác thì có gì hơn" | |
+| Nhận phản biện | Câu hỏi tôi nhận được:"Áp dụng như thế nào trong việc điểm danh ? So với các AI điểm danh hiện tại có thì tốt hơn điều gì ?" | Tôi đã sửa gì: tìm những phương pháp tối ưu hơn về chi phí |
 | Gom cluster / cây OST | | |
 | Chọn candidate problem | | |
 | Kiểm chứng / research | | |
 | Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Problem Statement | Viết Problem Statement v1 (Actor, quy trình, bottleneck, impact, success metric, boundary, AI intervention point, rủi ro) và so sánh với v0 (Problem Card #2). Viết 5 tiêu chí đánh giá đầu ra của AI. | Có bản Problem Statement v1 với phạm vi rõ (chỉ tra cứu lịch sử bán, giá, tồn; không tự nhập hàng hay đặt giá) và tiêu chí đo được để nhóm dùng đánh giá đầu ra. |
+| Mức can thiệp AI | Phụ trách CP6: đặt bài vào ma trận độ mơ hồ × độ phức tạp, so sánh 4 mức (No AI / Rule / Workflow / Agent), điền AI Canvas và trả lời hai câu hỏi của Google PAIR. | Chọn Workflow (người xác nhận bản ghi, AI trích xuất và tra cứu) trên nền chuẩn hóa dữ liệu; loại Agent vì sai tồn kho/giá gây thiệt hại thật và dữ liệu chưa đủ. Chọn hướng augment và ưu tiên tránh bỏ sót hơn báo nhầm. |
+| Quyết định | Đánh giá 4 rủi ro (Value, Usability, Feasibility, Viability), viết kết luận 8.2, đặt ngưỡng dừng, viết phần hạn chế và hướng tiếp theo, tài liệu tham khảo. | Kết luận Not Yet vì Feasibility Cao (dữ liệu chưa đủ) và chưa có baseline. Nhóm cần đo baseline, chuẩn hóa ghi chép, phỏng vấn người nhà và thử AI trên 20–30 bản ghi mẫu trước khi quyết định lại. |
 
 ---
 
@@ -147,12 +151,12 @@ Bottleneck giả định: bước "tìm lại bằng chứng" (___ phút/ca, nhi
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Nhờ AI gợi ý thêm các vấn đề liên quan đến quản lý thời gian, lưu trữ thông tin và quản lý công việc. | Gợi ý thêm góc nhìn và nhóm vấn đề mà tôi chưa nghĩ tới. | Một số gợi ý chung chung, chưa có trải nghiệm hoặc bằng chứng cụ thể từ cuộc sống của tôi. | Chỉ giữ những vấn đề phù hợp với trải nghiệm thực tế của bản thân và gia đình; bỏ các vấn đề chưa có bằng chứng. |
+| CP2 Problem Card | Nhờ AI phản biện Problem Card #2 (quản lý hàng hóa tại cửa hàng điện tử của gia đình). | Chỉ ra 3 điểm yếu: thiếu số liệu, dữ liệu ghi chép chưa đầy đủ thì AI khó tra cứu chính xác, chưa xác định rõ AI hỗ trợ công đoạn nào. | [Điền: AI có chỗ nào phản biện chung chung hoặc chưa sát thực tế cửa hàng không?] | Đồng ý cả 3 điểm; không tự đặt số liệu mà ghi rõ chỉ số cần đo, bổ sung bước chuẩn hóa ghi chép trước khi dùng AI, giới hạn AI ở tra cứu và tổng hợp thông tin bán hàng. |
+| CP4 Research | [Điền: dùng AI để tìm hiểu gì, ví dụ phần mềm quản lý kho, cách chuẩn hóa ghi chép, các AI tương tự.] | [Điền.] | [Điền: AI có đưa thông tin sai, cũ hoặc không có nguồn không?] | [Điền: tôi kiểm tra lại bằng cách nào, ví dụ hỏi người nhà, đối chiếu nguồn.] |
+| CP5 Quy trình | [Điền: dùng AI để làm gì, ví dụ gợi ý các bước hoặc sơ đồ quy trình.] | [Điền.] | [Điền: AI bỏ sót bước nào hoặc vẽ quy trình không đúng thực tế cửa hàng?] | [Điền: tôi sửa quy trình theo cách gia đình đang làm thật.] |
+| CP5–6 Problem Statement | Nhờ AI soạn bản nháp Problem Statement v1 (Actor, quy trình, bottleneck, metric, boundary, intervention point, rủi ro) và 5 tiêu chí đánh giá đầu ra. | Sắp xếp được cấu trúc đầy đủ các trường và viết tiêu chí "đạt / không đạt" rõ ràng. | Bản nháp có các con số target (giảm một nửa thời gian, ≥ 90% giao dịch ghi đủ) mà tôi chưa đo được; AI cũng viết khá chung, chưa dựa vào số liệu thật của cửa hàng. | Ghi rõ các con số chỉ là đề xuất, chỉ chốt sau khi đo baseline; chỉnh lại boundary và bottleneck cho đúng với tình hình thực tế của cửa hàng. |
+| CP6 Mức can thiệp / quyết định | Nhờ AI soạn bản nháp ma trận độ mơ hồ × độ phức tạp, so sánh 4 mức, AI Canvas, PAIR, 4 rủi ro và kết luận Go / Not Yet / No-Go. | So sánh có hệ thống 4 mức, gợi ý được lập luận "bỏ sót tệ hơn báo nhầm" và các điều kiện kiểm chứng trước khi Go. | Ngưỡng dừng (70%, 10%) và pilot do AI đề xuất mà chưa có căn cứ từ dữ liệu thật; ban đầu AI cũng viết như thể đã chắc chắn về bài nhóm trong khi file của tôi chưa nói rõ vấn đề nhóm chốt. | [Điền: tôi xem lại và đồng ý / sửa gì.] Tôi giữ kết luận Not Yet vì dữ liệu chưa đủ và chưa có baseline, đồng thời ghi rõ các ngưỡng là đề xuất ban đầu cần chỉnh sau khi đo. |
 
 ---
 
@@ -161,6 +165,7 @@ Bottleneck giả định: bước "tìm lại bằng chứng" (___ phút/ca, nhi
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Em học được viêc nên hiểu vấn đề trước khi nghĩ giải pháp và chi phí , ngoài ra phải tính tới việc lấy dự liệu ở đâu , có khả thi không , có hơn được gì ở những mô hình của đối thủ 
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
