@@ -33,7 +33,7 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 | CP5 — Quy trình trước/sau | Bùi Lê Công Tuấn| Nguyễn Vũ Thành Long | Quy trình + bảng before/after |
 | CP5 — Problem Statement v0 |Bùi Lê Công Tuấn | Mai Huy Hoat  | Problem Statement v0 |
 | CP6 — Mức can thiệp + Problem Statement v1 |  Nguyễn Đình Quang| Nguyễn Vũ Thành Long | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | Nguyễn Đình Quang | | 4 rủi ro + Go/Not Yet/No-Go |
+| CP6 — Quyết định | Nguyễn Đình Quang | Mai Huy Hoạt| 4 rủi ro + Go/Not Yet/No-Go |
 
 ## Cá nhân
 
