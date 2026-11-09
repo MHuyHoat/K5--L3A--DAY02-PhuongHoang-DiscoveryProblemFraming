@@ -457,43 +457,72 @@ Cách đã dùng: Phỏng vấn (4 người tại cửa hàng điện tử của
 
 ## 4. Quy trình trước/sau (CP5)
 
-### 4.1. Quy trình hiện tại
+### 4.1. Quy trình hiện tại (As-Is Process)
 
-Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
+Sơ đồ quy trình hiện tại:
 
 ```text
-
+[Khách hỏi thông tin sản phẩm / giá bán / lịch sử mua]
+       │
+       ▼
+[Nhân viên/Chủ cửa hàng mở sổ sách ghi chép & hỏi người thân]
+       │
+       ▼
+[Tra cứu thủ công qua sổ chép tay / file ghi riêng lẻ] ──▶ (BOTTLENECK)
+       │
+       ▼
+[Đi ra kho/kệ hàng thực tế để kiểm tra số lượng tồn và đối chiếu]
+       │
+       ▼
+[Báo lại giá/tình trạng tồn cho khách & Ghi chép giao dịch thủ công]
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Khách hàng & Người bán | Tên sản phẩm / Yêu cầu tra giá bán hoặc số lượng | Nhu cầu tra cứu thông tin sản phẩm | 1 - 2 phút / lượt | Khách hỏi trực tiếp tại cửa hàng hoặc qua điện thoại/Zalo |
+| 2 | Người bán | Nhu cầu tra cứu | Thông tin lịch sử sổ chép tay / File excel lẻ | 2 - 3 phút / lượt | Ghi chép không đồng bộ, nhiều sổ theo từng mốc thời gian |
+| 3 | Người bán | Sổ chép tay / Bộ nhớ cá nhân | Giá bán đợt trước & Lịch sử xuất bán | **5 - 10 phút / lượt** | **Bottleneck chính:** Tìm lại giá bán cũ, giao dịch chưa ghi chép đầy đủ |
+| 4 | Người bán | Thông tin tra cứu sổ sách | Số lượng thực tế trên kệ/kho | 3 - 5 phút / lượt | Phải trực tiếp ra kho kiểm tra đối chiếu vì số liệu ghi chép thiếu chính xác |
+| 5 | Người bán & Khách hàng | Thông tin chốt | Báo giá cho khách & Ghi nhận sổ bán | 2 - 3 phút / lượt | Ghi tay thông tin bán mới vào sổ |
 
-**Bottleneck chính:**
-
-### 4.2. Quy trình tương lai
-
-Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
-
-```text
-
-```
-
-### 4.3. Before / after
-
-| Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
-|---|---:|---:|---|
-| Số bước | | | |
-| Tổng thời gian | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Rủi ro mới phát sinh | | | |
+**Bottleneck chính:** Bước 3 (Khâu tìm lại giá bán cũ và lịch sử giao dịch trong sổ sách thủ công tốn thời gian, dễ nhầm lẫn do ghi chép không đầy đủ và thông tin bị phân tán).
 
 ---
+
+### 4.2. Quy trình tương lai (To-Be Process - Mức Workflow AI + Human-in-the-Loop)
+
+Phân định rõ ràng vai trò **Rule**, **AI**, **Con người (Human)**, **Boundary** và **Phương án quay về (Fallback)**:
+
+```text
+[Khách hỏi thông tin sản phẩm / lịch sử mua]
+       │
+       ▼
+(Rule) [Nhập liệu thông tin bán lẻ / quét mã QR chuẩn hóa vào CSDL]
+       │
+       ▼
+(AI Workflow) [AI RAG truy xuất nhanh lịch sử giá, tồn kho & gợi ý báo giá]
+       │
+       ▼
+(Con người - HITL) [Người bán xác nhận thông tin, duyệt giá & báo khách] ──▶ [Chốt đơn]
+```
+
+* **Bước 1 (Rule-based):** Chuẩn hóa khâu nhập liệu. Mỗi giao dịch nhập - xuất - bán hàng được nhập vào hệ thống CSDL tập trung theo biểu mẫu cố định (Rule-based Form / Quét mã SKU/QR).
+* **Bước 2 (AI Workflow - RAG/Natural Language Query):** Khi người bán cần tìm thông tin, AI đóng vai trò Trợ lý tra cứu (dùng RAG/NL2SQL). Người bán chỉ cần gõ hoặc nói: *"Sản phẩm X tuần trước bán giá bao nhiêu?"* hoặc *"Tồn kho mã Y còn mấy cái?"*, AI sẽ truy xuất và trả kết quả chính xác trong 3 giây.
+* **Bước 3 (Con người & Boundary):** Người bán trực tiếp đối soát và trả lời khách hàng. **Boundary (Ranh giới):** AI chỉ có quyền **tra cứu, tổng hợp và gợi ý** thông tin lịch sử giao dịch/tồn kho dựa trên dữ liệu đã ghi nhận, **tuyệt đối không** tự ý thay đổi giá bán chính thức, không tự tạo đơn hàng nếu chưa được con người xác nhận.
+* **Bước 4 (Human-in-the-Loop):** Người bán là người chịu trách nhiệm kiểm tra lại thông tin gợi ý từ AI và đưa ra quyết định bán hàng cuối cùng.
+* **Phương án quay về (Fallback):** Nếu hệ thống AI gặp sự cố hoặc dữ liệu đầu vào chưa kịp cập nhật, người bán chủ động chuyển về quy trình tra cứu bảng tính/sổ sách thủ công và kiểm tra trực tiếp tại kho để không làm gián đoạn việc bán hàng.
+
+---
+
+### 4.3. Before / after (So sánh trước và sau khi cải tiến)
+
+| Chỉ số | Trước (As-Is) | Sau (Kỳ vọng To-Be) | Ghi chú |
+|---|---:|---:|---|
+| **Số bước** | 5 bước | 3 bước | Tinh gọn khâu tìm kiếm và đi đối chiếu kho thực tế |
+| **Tổng thời gian** | ~13 - 23 phút/lượt tra cứu | ~1 - 3 phút/lượt tra cứu | Rút ngắn đáng kể thời gian khách hàng phải chờ đợi |
+| **Số bước thủ công** | 5/5 bước | 1/3 bước (khâu xác nhận cuối) | AI tự động hóa hoàn toàn khâu tìm kiếm & tính toán tồn kho |
+| **Bottleneck chính** | Tìm lại thông tin giá bán và giao dịch cũ trong sổ sách | Kiểm tra tính chính xác của dữ liệu đầu vào | Dịch chuyển từ "tìm kiếm thủ công" sang "chuẩn hóa dữ liệu" |
+| **Rủi ro mới phát sinh** | Thiếu dữ liệu nếu người bán quên ghi nhận giao dịch mới | Khắc phục bằng giao diện nhập liệu siêu nhanh (Rule-based form/Mã QR) |
 
 ## 5. Problem Statement v0 (CP5)
 
